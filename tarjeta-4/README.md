@@ -9,32 +9,34 @@
 Son esenciales para la toma de decisiones y el control del flujo de un programa:
 
 
-If:
-Se utiliza para ejecutar un bloque de código si una condición especifica es verdadera.
-🔗 **[LINK DE CODIGO]()** 
+-If:
+  Se utiliza para ejecutar un bloque de código si una condición especifica es verdadera.
 
-Else:
-Utilizado en conjunto con if.
-🔗 **[LINK DE CODIGO]()** 
+-Else:
+  Utilizado en conjunto con if.
 
+-Else if:
+  Se utiliza para verificar múltiples condiciones en secuencia permitiendo manejar múltiples casos sin anidar múltiples   sentencias if.
 
-
-- Int: Se utliza para números enteros.
-- Double: Se utliza para números decimales mas grandes.
-- Float: Se utiliza para números decimales mas cortos o menos presición.
-- Boolean: Se utiliza para valores logicos (True -  False).
-- Char: Se utliza para un solo caracter.
-- String: Se utliza para cadenas de textos.
-
-Se declaran con val para variables inmutables o var para variables mutables.
+-When:
+  La expresión when es una estructura de control de flujo que permite ejecutar diferentes bloques de código basados en el valor de una variable o expresión.
 
 ---
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
-   - Utilice un editor de código para lograrlo.  
+   -If
+     🔗 **[LINK DE CODIGO](https://pl.kotl.in/El33458JG?readOnly=true)** 
 
-🔗 **[LINK DE CODIGO]()** 
+   - Else
+       🔗 **[LINK DE CODIGO](https://pl.kotl.in/2edIczKny?readOnly=true)** 
+
+   -  Else if
+        🔗 **[LINK DE CODIGO](https://pl.kotl.in/BRRigPJSs?readOnly=true)** 
+
+   -  When
+         🔗 **[LINK DE CODIGO](https://pl.kotl.in/H8yuMCbeb?readOnly=true)** 
+
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
