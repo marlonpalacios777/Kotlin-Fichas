@@ -1,31 +1,35 @@
-#### ESTRUCTURA 1  
-# MANEJO DE VARIABLES  
+#### ESTRUCTURA 2  
+# Operadores Math Lógicos  
 
 ---
 
 1. **Describa el por qué y para qué se utiliza.**
 
-  El manejo de variable en Kotlin es muy importante porque es un lenguaje fuertemente tipado, lo que significa que cada variable tiene un tipo especifico:
+En Kotlin, los operadores nos permiten realizar cálculos y tomar decisiones en el código. Se dividen en dos categorías principales:
 
-- Int: Se utliza para números enteros.
-- Double: Se utliza para números decimales mas grandes.
-- Float: Se utiliza para números decimales mas cortos o menos presición.
-- Boolean: Se utiliza para valores logicos (True -  False).
-- Char: Se utliza para un solo caracter.
-- String: Se utliza para cadenas de textos.
+Operadores Matemáticos (Para hacer cálculos):
+- Suma.
+- Resta.
+- Multiplicación.
+- División.
+- Módulo (resto de una división).
+ 
+Operadores Lógicos (Para evaluar condiciones):
+- AND (Las dos condiciones deben ser true).
+- OR (Al menos una condición debe ser true).
+- NOT (Niega el valor de una condición).
 
-Se declaran con val para variables inmutables o var para variables mutables.
-
+ 
 ---
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/SqckacgRi?readOnly=true)** 
+🔗 **[LINK DE CODIGO](https://pl.kotl.in/lOtoGvOho?readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/f3d8352b-d68a-4672-b5d7-37689effce86)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/variables/variables.png)**
+🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
