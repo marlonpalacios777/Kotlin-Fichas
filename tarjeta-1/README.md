@@ -1,23 +1,31 @@
-ESTRUCTURA NUMERO 1
-VARIABLES TIPOS DE DATOS
-Describa el por qué y para qué se utiliza.
+#### ESTRUCTURA NUMERO 1  
+# MANEJO DE VARIABLES  
 
-// En Kotlin, las variables son como cajitas donde guardamos información. Dependiendo de lo que queramos almacenar, esas cajitas pueden tener diferentes tipos de datos.
+---
 
-Existen dos formas de declarar variables en Kotlin:
+1. **Describa el por qué y para qué se utiliza.**
 
-val = Para valores que no cambian.
-var = Para valores que sí pueden cambiar.
-También hay varios tipos de datos, como:
+  En Kotlin, las variables son como cajitas donde guardamos información. Dependiendo de lo que queramos almacenar, esas cajitas pueden tener diferentes tipos de datos.
 
-Enteros (Int, Long, Short, Byte).
-Decimales (Float, Double).
-Texto (String).
-Caracteres individuales (Char).
-Genere un ejemplo internamente en el recuadro.
+- Int: Se utliza para números enteros.
+- Double: Se utliza para números decimales mas grandes.
+- Float: Se utiliza para números decimales mas cortos o menos presición.
+- Boolean: Se utiliza para valores logicos (True -  False).
+- Char: Se utliza para un solo caracter.
+- String: Se utliza para cadenas de textos.
 
-Utilice un editor de código para lograrlo.
-🔗 LINK DE CÓDIGO(<iframe src="https://pl.kotl.in/aDq7EaxJ2?from=1&to=15&readOnly=true"></iframe>)
+- val = Para valores que no cambian.
+- var = Para valores que sí pueden cambiar.
+  
+Se declaran con val para variables inmutables o var para variables mutables.
 
-EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO
-Genere el link del audio y el link de GitHub.
+---
+   
+2. **Genere un ejemplo internamente en el recuadro.**  
+
+   - Utilice un editor de código para lograrlo.  
+
+🔗 **[LINK DE CODIGO](https://pl.kotl.in/aDq7EaxJ2?from=1&to=15&theme=darcula&readOnly=true)** 
+
+### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+- Genere el link del audio y el link de GitHub.  
