@@ -25,8 +25,7 @@
 - Arrays
   Son colecciones de tamaño fijo de elementos del mismo tipo accediendo a ellos mediante los índices.
   En Kotlin, los arrays se representan mediante la clase Array. También proporciona clases especializadas para arrays de tipos primitivos, como IntArray, DoubleArray.
-
-Se declaran con val para variables inmutables o var para variables mutables.
+  Se declaran con val para variables inmutables o var para variables mutables.
 
 ---
    
