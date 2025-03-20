@@ -22,10 +22,10 @@ Se declaran con val para variables inmutables o var para variables mutables.
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/SqckacgRi?readOnly=true)** 
+🔗 **[LINK DE CODIGO]()** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/f3d8352b-d68a-4672-b5d7-37689effce86)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/variables/variables.png)**
+🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
