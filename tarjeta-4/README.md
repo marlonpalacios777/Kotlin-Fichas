@@ -1,11 +1,23 @@
-#### ESTRUCTURA 1  
-# MANEJO DE VARIABLES  
+#### ESTRUCTURA NÚMERO 4 
+# CONTROL DE FLUJO  
 
 ---
 
 1. **Describa el por qué y para qué se utiliza.**
 
-  El manejo de variable en Kotlin es muy importante porque es un lenguaje fuertemente tipado, lo que significa que cada variable tiene un tipo especifico:
+  Los condicionales en programación son estructuras de control que permiten ejecutar diferentes bloques de código según si una condición es verdadera o falsa. Pueden ser simples (if), compuestos (if-else), múltiples (if-elseif-else o switch-case)
+Son esenciales para la toma de decisiones y el control del flujo de un programa:
+
+
+If:
+Se utiliza para ejecutar un bloque de código si una condición especifica es verdadera.
+🔗 **[LINK DE CODIGO]()** 
+
+Else:
+Utilizado en conjunto con if.
+🔗 **[LINK DE CODIGO]()** 
+
+
 
 - Int: Se utliza para números enteros.
 - Double: Se utliza para números decimales mas grandes.
