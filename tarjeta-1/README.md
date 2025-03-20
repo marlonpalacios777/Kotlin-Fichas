@@ -23,7 +23,7 @@
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/IhnSD0vLW)** 
+🔗 **[LINK DE CODIGO](<iframe src="https://pl.kotl.in/aDq7EaxJ2?from=1&to=15"></iframe>)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
