@@ -5,21 +5,60 @@
 
 1. **Describa el por qué y para qué se utiliza.**
 
- En Kotlin, las cadenas de texto (Strings) son súper importantes porque nos permiten trabajar con palabras, frases y cualquier tipo de texto. Además, Kotlin nos ofrece varias funciones para manipular y modificar Strings fácilmente.
+## Funciones de Cadenas (Strings):
 
- Por otro lado, el printing (uso de print o println) nos sirve para mostrar información en la consola, lo que es clave para depurar nuestro código y ver resultados.
+Permiten manipular y transformar texto, desde unir cadenas hasta extraer partes específicas o cambiar su formato.
 
-Algunas funciones útiles para trabajar con Strings:
+### Concatenación:
 
-- .length: Nos dice cuántos caracteres tiene la cadena
-- .uppercase(): Convierte todo el texto a mayúsculas.
-- .replace("a", "o"): Reemplaza caracteres o palabras en el texto.
-- .substring(0, 5): Extrae una parte del texto.
-- .trim(): Elimina espacios al inicio y al final.
+Se utiliza el operador + para unir dos o más cadenas.
 
-  Y cuando queremos imprimir algo, usamos:
-  - print("Hola mundo") → Muestra el texto sin salto de línea.
-  - println("Hola mundo") → Muestra el texto con salto de línea.
+Ejemplo: val nombreCompleto = "Juan" + " " + "Pérez"
+
+### Interpolación de Cadenas:
+
+Permite insertar variables o expresiones dentro de una cadena usando $.
+
+Ejemplo: val edad = 30; println("Mi edad es $edad")
+
+### Longitud de una Cadena:
+
+La propiedad length devuelve el número de caracteres en una cadena.
+
+Ejemplo: val longitud = "Hola".length // resultado: 4
+
+### Subcadenas:
+
+La función substring() extrae una parte de una cadena.
+
+Ejemplo: val subcadena = "Kotlin".substring(0, 3) // resultado: "Kot"
+
+### Funciones de transformación:
+
+* toUpperCase(): convierte todos los caracteres a mayúsculas.
+* toLowerCase(): convierte todos los caracteres a minúsculas.
+* trim(): elimina los espacios en blanco al principio y al final de la cadena.
+
+### Funciones de comparación:
+
+* equals(): Permite comparar si dos String son iguales.
+* contains(): Permite verificar si un String contiene una secuencia de caracteres determinada.
+
+## Funciones de Impresión (Printing):
+
+**Propósito:** Muestran texto en la consola, lo que es útil para depurar código, mostrar resultados o interactuar con el usuario.
+
+### print():
+
+Imprime el texto sin agregar una nueva línea al final.
+
+Ejemplo: print("Hola, ")
+
+### println():
+
+Imprime el texto y agrega una nueva línea al final.
+
+Ejemplo: println("Mundo!")
 
 ---
    
