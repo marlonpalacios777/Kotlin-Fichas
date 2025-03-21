@@ -35,11 +35,16 @@ Para hacer cálculos en Kotlin:
 - **Incremento (++) y Decremento (--):**  
   Incrementa o decrementa el valor de una variable en 1.  
   Pueden ser prefijos (++x, --x) o sufijos (x++, x--).  
-
-  ```kotlin
+  Ejemplo:
   var x = 5  
   x++ // x ahora es 6  
-  --x // x ahora es 5  
+  --x // x ahora es 5
+
+  ## Operadores lógicos
+AND lógico (&&):
+Devuelve true si ambas expresiones son true.
+Ejemplo: val resultado = (5 > 3) && (10 < 20) // resultado: true
+ 
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
