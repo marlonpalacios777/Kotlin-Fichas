@@ -44,8 +44,10 @@ Para hacer cálculos en Kotlin:
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 [**[LINK DE CODIGO #1 Operadores matemáticos](https://pl.kotl.in/AVXSS7_jD?readOnly=true&theme=darcula)** 
+🔗 **[LINK DE CODIGO #1 Operadores matemáticos](https://pl.kotl.in/AVXSS7_jD?readOnly=true&theme=darcula)** 
+
 🔗 **[LINK DE CODIGO #2 Operadores lógicos](https://pl.kotl.in/EUQZenHTO?theme=darcula&readOnly=true)**
+
 🔗 **[LINK DE CODIGO #3 Operadores de comparación](https://pl.kotl.in/urkEruCQq?theme=darcula&readOnly=true)**
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
