@@ -3,6 +3,9 @@
 
 ---
 
+# COLLECTIONS 
+---
+
 1. **Describa el por qué y para qué se utiliza.**
 
   Las colecciones son estructuras de datos que permiten almacenar y manejar múltiples elementos:
@@ -22,8 +25,9 @@
   Map: Interfaz inmutable.
   MutableMap: Interfaz mutable.
 
-- Arrays
-  Son colecciones de tamaño fijo de elementos del mismo tipo accediendo a ellos mediante los índices.
+# ARRAYS
+---
+- Son colecciones de tamaño fijo de elementos del mismo tipo accediendo a ellos mediante los índices.
   En Kotlin, los arrays se representan mediante la clase Array. También proporciona clases especializadas para arrays de tipos primitivos, como IntArray, DoubleArray.
   Se declaran con val para variables inmutables o var para variables mutables.
 
