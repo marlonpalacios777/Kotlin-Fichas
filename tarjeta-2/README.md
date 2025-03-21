@@ -39,12 +39,6 @@ Para hacer cálculos en Kotlin:
   var x = 5  
   x++ // x ahora es 6  
   --x // x ahora es 5
-
-  ## Operadores lógicos
-  -ND lógico (&&):
-  Devuelve true si ambas expresiones son true.
-  Ejemplo: val resultado = (5 > 3) && (10 < 20) // resultado: true
- 
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
