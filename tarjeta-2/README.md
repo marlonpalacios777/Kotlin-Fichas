@@ -5,13 +5,13 @@
 
 1. **Describa el por qué y para qué se utiliza.**
 
-# Operadores matemáticos:
-- Se utilizan para realizar cálculos y operaciones numéricas básicas, como sumas, restas, multiplicaciones y divisiones.
+- Operadores matemáticos:
+Se utilizan para realizar cálculos y operaciones numéricas básicas, como sumas, restas, multiplicaciones y divisiones.
 
-# Operadores lógicos:
-- Se emplean para combinar o negar condiciones booleanas (verdadero o falso), permitiendo la creación de expresiones lógicas complejas.
+- Operadores lógicos:
+Se emplean para combinar o negar condiciones booleanas (verdadero o falso), permitiendo la creación de expresiones lógicas complejas.
 
-En Kotlin, los operadores nos permiten realizar cálculos y tomar decisiones en el código. Se dividen en dos categorías principales:
+- En Kotlin, los operadores nos permiten realizar cálculos y tomar decisiones en el código. Se dividen en dos categorías principales:
 
 Operadores Matemáticos (Para hacer cálculos):
 - Suma (+):
