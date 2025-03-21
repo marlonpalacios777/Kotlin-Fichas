@@ -66,7 +66,7 @@ Ejemplo: println("Mundo!")
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/D_sGA8vvv?readOnly=true&theme=darcula)** 
+🔗 **[LINK DE CODIGO](https://pl.kotl.in/l7-oe_Tny?theme=darcula&readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
