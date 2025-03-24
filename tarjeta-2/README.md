@@ -54,4 +54,4 @@ Para hacer cálculos en Kotlin:
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/d2e30b5b53d52d7864da865b2a7135a3ed981f4f/tarjeta-2/Operadores%20Logicos..PNG)**
