@@ -63,13 +63,38 @@ Ejemplo: println("Mundo!")
 ---
    
 2. **Genere un ejemplo internamente en el recuadro.**  
+   - Utilice un editor de código para lograrlo.
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
 
-   - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/l7-oe_Tny?theme=darcula&readOnly=true)** 
+```
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+   val mensaje = "¡Hola, mundo!"
+
+
+   // Imprime la cadena original
+   println(mensaje)
+
+
+   // Imprime la longitud de la cadena
+   println("La longitud del mensaje es ${mensaje.length}")
+
+
+   // Imprime la cadena en mayúsculas
+   println("Mensaje en mayúsculas: ${mensaje.uppercase()}")
+
+
+   // Imprime una subcadena
+   println("Subcadena (primeros 5 caracteres): ${mensaje.substring(0, 5)}")
+}
+```
