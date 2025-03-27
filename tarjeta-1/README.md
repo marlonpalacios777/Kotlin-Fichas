@@ -54,3 +54,6 @@ Kotlin es un lenguaje de tipado estático, donde el tipo de una variable se defi
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
+
+🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]().
