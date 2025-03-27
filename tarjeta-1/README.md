@@ -48,12 +48,42 @@ Kotlin es un lenguaje de tipado estático, donde el tipo de una variable se defi
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
-   - Utilice un editor de código para lograrlo.  
+   - Utilice un editor de código para lograrlo.
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
 
-🔗 **[LINK DE CODIGO](https://pl.kotl.in/rE1s-UngA?theme=darcula&readOnly=true)** 
 
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+```
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/f8aa10d9293a7a1c464674d5f2bda1a400a98b3b/tarjeta-1/Variables%20Tipos%20de%20Datos.PNG).
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Aquí definimos el nombre del cliente. "val" significa que este nombre no va a cambiar.
+    val nombreCliente: String = "Edwin"
+
+    // Ahora, el estilo del corte, que sí puede variar, por eso usamos "var".
+    var estiloCorte: String = "Fade"
+
+    // Y el precio del corte, que también podría cambiar, así que "var" otra vez.
+    var precioCorte: Double = 20.50
+
+    // Por último, si el cliente es frecuente o no, que tampoco cambia, usamos "val".
+    val esClienteFrecuente: Boolean = true
+
+    // Aquí hacemos como si el cliente se hubiera cambiado de opinión.
+    estiloCorte = "Corte clasico"
+
+    // Ahora, vamos a imprimir toda la info del cliente.
+    println("Cliente: $nombreCliente") // Aquí mostramos el nombre.
+    println("Corte elegido: $estiloCorte") // Y aquí, el estilo del corte.
+    println("Precio: $$precioCorte") // ¡Y el precio!
+    println("¿Cliente frecuente?: $esClienteFrecuente") // Y si es cliente frecuente o no.
+}
+
+```
