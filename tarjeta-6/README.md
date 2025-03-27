@@ -34,6 +34,7 @@ Similar al bucle while, pero garantiza que el bloque de código se ejecute al me
 2. **Genere un ejemplo internamente en el recuadro.**
 
 -For:
+
    Itera sobre un rango:
       🔗 **[LINK DE CODIGO](https://pl.kotl.in/YOeQAoRtk?readOnly=true)** 
    
