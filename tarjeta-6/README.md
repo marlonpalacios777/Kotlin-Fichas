@@ -30,13 +30,6 @@ Ejecuta un bloque de código mientras una condición sea verdadera.
 Similar al bucle while, pero garantiza que el bloque de código se ejecute al menos una vez, ya que la condición se verifica al final del bucle.
 
 
-## Arrays
-
-Son colecciones de tamaño fijo de elementos del mismo tipo, accediendo a ellos mediante los índices.
-
-En Kotlin, los arrays se representan mediante la clase `Array`. También proporciona clases especializadas para arrays de tipos primitivos, como `IntArray`, `DoubleArray`.
-
----
    
 2. **Genere un ejemplo internamente en el recuadro.**
 
