@@ -87,7 +87,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/0e4d4b84cd8ecf9524328137173265f38d5146d6/tarjeta-3/FUNCIONES%20DE%20STRINGS%20Y%20PRINTING.PNG)**
 
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
