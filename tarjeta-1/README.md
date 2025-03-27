@@ -1,35 +1,48 @@
 #### ESTRUCTURA NÚMERO 1
-# MANEJO DE VARIABLES EN KOTLIN
+# VARIABLES Y TIPOS DE DATOS
 
 ---
 
-## 1. Descripción: Por qué y para qué se utilizan las variables
+## 1. Por qué y para qué se utilizan
 
-En Kotlin, las variables son contenedores para almacenar información, permitiendo guardar datos como la edad o el nombre de un usuario para su uso posterior en el programa. El manejo de variables es fundamental para escribir código eficiente y seguro.
+En Kotlin, una variable actúa como un contenedor para almacenar un valor. Este valor puede ser modificable (variable mutable) o inmutable (constante) durante la ejecución del programa. Las variables son fundamentales para la manipulación y almacenamiento de datos.
 
-### Tipos de datos comunes en Kotlin
+### ¿Por qué se utilizan las variables?
 
-* `Int`: Números enteros.
-* `Double`: Números decimales de alta precisión.
-* `Float`: Números decimales de menor precisión.
-* `Boolean`: Valores lógicos (verdadero/falso).
-* `Char`: Caracteres individuales.
-* `String`: Cadenas de texto.
+* **Almacenamiento de datos:** Permiten guardar información temporal o permanente durante la ejecución del programa.
+* **Manipulación de datos:** Facilitan la realización de operaciones como cálculos, comparaciones y transformaciones.
+* **Control del flujo del programa:** Se utilizan en estructuras de control (condicionales, bucles) para tomar decisiones.
+* **Reutilización de datos:** Permiten usar la misma información en múltiples partes del programa.
 
-### ¿Por qué son importantes las variables?
+### ¿Para qué se utilizan las variables?
 
-* **Almacenamiento de datos**: Permiten guardar datos temporales, como resultados de cálculos o entradas de usuario.
-* **Modificación de datos**: Facilitan la actualización de la información almacenada a lo largo del tiempo.
-* **Reutilización de datos**: Evitan la repetición de datos, permitiendo su uso múltiple mediante referencias a la variable.
+* **Información del usuario:** Almacenar datos proporcionados por el usuario (nombre, edad, etc.).
+* **Cálculos matemáticos:** Guardar números y realizar operaciones aritméticas.
+* **Estado del programa:** Utilizar valores booleanos para controlar el flujo lógico.
+* **Colecciones de datos:** Almacenar listas, conjuntos o mapas de datos.
 
-### ¿Cómo se declaran las variables en Kotlin?
+## 2. Tipos de datos en Kotlin:
 
-Kotlin ofrece dos formas principales de declarar variables:
+Kotlin es un lenguaje de tipado estático, donde el tipo de una variable se define en tiempo de compilación. Ofrece una variedad de tipos de datos:
 
-* `val`: Para variables inmutables (valores que no cambian).
-* `var`: Para variables mutables (valores que pueden cambiar).
+### Tipos de datos numéricos:
 
-La declaración de variables se realiza mediante las palabras clave `val` o `var`, seguidas del nombre de la variable y su tipo de dato (opcional, ya que Kotlin puede inferirlo).
+* `Int`: Números enteros (ej: 10, -5, 0).
+* `Long`: Números enteros de mayor rango (ej: 10000000000L).
+* `Double`: Números de punto flotante de doble precisión (ej: 3.14, 2.71828).
+* `Float`: Números de punto flotante de precisión simple (ej: 3.14f, 2.71828f).
+
+### Tipo de dato booleano:
+
+* `Boolean`: Valores lógicos (verdadero/falso: `true`, `false`).
+
+### Tipo de dato carácter:
+
+* `Char`: Caracteres individuales (ej: 'a', 'b', 'c').
+
+### Tipo de dato cadena:
+
+* `String`: Secuencias de caracteres (ej: "Hola, mundo!", "Somos un equipo muy unido", "Conformado por Salome,Marlon y Edwin").
 
 ---
    
