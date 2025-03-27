@@ -1,9 +1,9 @@
 ### ESTRUCTURA NÚMERO 2  
-# Operadores matemáticos y lógicos  
+# OPERADORES MATEMÁTICOS Y LÓGICOS 
 
 ---  
 
-1. **Describa el por qué y para qué se utiliza.**  
+## 1. Por qué y para qué se utilizan
 
 - **Operadores matemáticos:**  
   Se utilizan para realizar cálculos y operaciones numéricas básicas, como sumas, restas, multiplicaciones y divisiones.  
