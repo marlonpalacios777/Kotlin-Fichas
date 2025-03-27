@@ -1,23 +1,35 @@
-#### ESTRUCTURA NUMERO 1  
-# MANEJO DE VARIABLES  
+#### ESTRUCTURA NÚMERO 1
+# MANEJO DE VARIABLES EN KOTLIN
 
 ---
 
-1. **Describa el por qué y para qué se utiliza.**
+## 1. Descripción: Por qué y para qué se utilizan las variables
 
-  En Kotlin, las variables son como cajitas donde guardamos información. Dependiendo de lo que queramos almacenar, esas cajitas pueden tener diferentes tipos de datos.
+En Kotlin, las variables son contenedores para almacenar información, permitiendo guardar datos como la edad o el nombre de un usuario para su uso posterior en el programa. El manejo de variables es fundamental para escribir código eficiente y seguro.
 
-- Int: Se utliza para números enteros.
-- Double: Se utliza para números decimales mas grandes.
-- Float: Se utiliza para números decimales mas cortos o menos presición.
-- Boolean: Se utiliza para valores logicos (True -  False).
-- Char: Se utliza para un solo caracter.
-- String: Se utliza para cadenas de textos.
+### Tipos de datos comunes en Kotlin
 
-- val = Para valores que no cambian.
-- var = Para valores que sí pueden cambiar.
-  
-Se declaran con val para variables inmutables o var para variables mutables.
+* `Int`: Números enteros.
+* `Double`: Números decimales de alta precisión.
+* `Float`: Números decimales de menor precisión.
+* `Boolean`: Valores lógicos (verdadero/falso).
+* `Char`: Caracteres individuales.
+* `String`: Cadenas de texto.
+
+### ¿Por qué son importantes las variables?
+
+* **Almacenamiento de datos**: Permiten guardar datos temporales, como resultados de cálculos o entradas de usuario.
+* **Modificación de datos**: Facilitan la actualización de la información almacenada a lo largo del tiempo.
+* **Reutilización de datos**: Evitan la repetición de datos, permitiendo su uso múltiple mediante referencias a la variable.
+
+### ¿Cómo se declaran las variables en Kotlin?
+
+Kotlin ofrece dos formas principales de declarar variables:
+
+* `val`: Para variables inmutables (valores que no cambian).
+* `var`: Para variables mutables (valores que pueden cambiar).
+
+La declaración de variables se realiza mediante las palabras clave `val` o `var`, seguidas del nombre de la variable y su tipo de dato (opcional, ya que Kotlin puede inferirlo).
 
 ---
    
