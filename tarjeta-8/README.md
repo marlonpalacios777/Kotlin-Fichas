@@ -3,18 +3,22 @@
 
 ---
 
-1. **Describa el por qué y para qué se utiliza.**
+**1. Descripción: Por qué y para qué se utilizan los bucles**
 
-  El manejo de variable en Kotlin es muy importante porque es un lenguaje fuertemente tipado, lo que significa que cada variable tiene un tipo especifico:
+La programación funcional es un paradigma de programación que se basa en el uso de funciones como bloques de construcción fundamentales. En lugar de modificar el estado de las variables, se crean nuevas variables y se transforman los datos utilizando funciones puras (funciones que siempre devuelven el mismo resultado para las mismas entradas y no tienen efectos secundarios).
 
-- Int: Se utliza para números enteros.
-- Double: Se utliza para números decimales mas grandes.
-- Float: Se utiliza para números decimales mas cortos o menos presición.
-- Boolean: Se utiliza para valores logicos (True -  False).
-- Char: Se utliza para un solo caracter.
-- String: Se utliza para cadenas de textos.
+### ¿Por qué se utilizan?
 
-Se declaran con val para variables inmutables o var para variables mutables.
+Código más legible y mantenible: Las funciones puras son más fáciles de entender y probar, ya que no dependen de estados externos.
+Menos errores: La inmutabilidad de los datos y la ausencia de efectos secundarios reducen la probabilidad de errores.
+Concurrencia: La inmutabilidad facilita la escritura de código concurrente, ya que no hay problemas de sincronización.
+Expresividad: La programación funcional permite escribir código más conciso y expresivo.
+
+### ¿Para qué se utilizan?
+
+Transformación de datos: Aplicar funciones a colecciones de datos para transformarlos.
+Filtrado de datos: Seleccionar elementos de una colección que cumplan con una condición.
+Reducción de datos: Combinar los elementos de una colección en un solo valor.
 
 ---
    
@@ -22,7 +26,13 @@ Se declaran con val para variables inmutables o var para variables mutables.
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO]()** 
+🔗 **[LINK DE CODIGO MAP](https://pl.kotl.in/p6pcC2KCV?theme=darcula&readOnly=true)** 
+
+🔗 **[LINK DE CODIGO FILTER](https://pl.kotl.in/UTriKYd0W?theme=darcula&readOnly=true)** 
+
+🔗 **[LINK DE CODIGO REDUCE](https://pl.kotl.in/K-PeVBbvi?theme=darcula&readOnly=true)** 
+
+🔗 **[LINK DE CODIGO FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA](https://pl.kotl.in/jcJrFwAO6?theme=darcula&readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
