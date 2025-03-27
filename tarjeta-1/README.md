@@ -51,8 +51,21 @@ Kotlin es un lenguaje de tipado estático, donde el tipo de una variable se defi
    - Utilice un editor de código para lograrlo.
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    // Estamos guardando info de un usuario.
+    val nombreUsuario: String = "Marlon" // Su nombre.
+    var edadUsuario: Int = 18 // Su edad, un número entero.
+    val esMayorDeEdad: Boolean = true // Si es mayor de edad o no (verdadero/falso).
+    val alturaUsuario: Double = 1.75 // Su altura, un número decimal.
+    val inicialApellido: Char = 'P' // La inicial de su apellido, un solo carácter.
 
+    // Vamos a hacer algunos cálculos con su info.
+    edadUsuario = edadUsuario + 1 // ¡Feliz cumpleaños!
 
+    // Y mostrar todo en la consola.
+    println("El usuario ${nombreUsuario.uppercase()} con inicial de apellido $inicialApellido tiene ${edadUsuario} años y mide ${alturaUsuario} metros.")
+    println("¿Es mayor de edad? ${esMayorDeEdad}")
+}
 ```
 
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
