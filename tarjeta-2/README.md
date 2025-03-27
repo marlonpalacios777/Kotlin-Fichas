@@ -41,17 +41,91 @@ Para hacer cálculos en Kotlin:
   --x // x ahora es 5
    
 2. **Genere un ejemplo internamente en el recuadro.**  
+   - Utilice un editor de código para lograrlo.
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN OPERADORES MATEMÁTICOS
+fun main() {
+   val numero1 = 10
+   val numero2 = 5
 
-   - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO #1 Operadores matemáticos](https://pl.kotl.in/AVXSS7_jD?readOnly=true&theme=darcula)** 
+   // Suma
+   val suma = numero1 + numero2
+   println("La suma es: $suma")
 
-🔗 **[LINK DE CODIGO #2 Operadores lógicos](https://pl.kotl.in/EUQZenHTO?theme=darcula&readOnly=true)**
 
-🔗 **[LINK DE CODIGO #3 Operadores de comparación](https://pl.kotl.in/urkEruCQq?theme=darcula&readOnly=true)**
+   // Resta
+   val resta = numero1 - numero2
+   println("La resta es: $resta")
 
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+
+   // Multiplicación
+   val multiplicacion = numero1 * numero2
+   println("La multiplicación es: $multiplicacion")
+
+
+   // División
+   val division = numero1.toDouble() / numero2
+   println("La división es: $division")
+
+
+   // Módulo (resto de la división)
+   val modulo = numero1 % numero2
+   println("El módulo es: $modulo")
+}
+```
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN OPERADORES LÓGICOS
+fun main() {
+   val a = true
+   val b = false
+
+
+   // Operador AND (&&)
+   val resultadoAnd = a && b
+   println("a AND b: $resultadoAnd") // Imprime: a AND b: false
+
+
+   // Operador OR (||)
+   val resultadoOr = a || b
+   println("a OR b: $resultadoOr") // Imprime: a OR b: true
+
+
+   // Operador NOT (!)
+   val resultadoNotA = !a
+   println("NOT a: $resultadoNotA") // Imprime: NOT a: false
+   val resultadoNotB = !b
+   println("NOT b: $resultadoNotB")// Imprime: NOT b: true
+
+
+   //Ejemplo combinado.
+   val resultadoCombinado = (a || b) && !b
+   println("(a OR b) AND (NOT b): $resultadoCombinado")//Imprime (a OR b) AND (NOT b):        true
+}
+```
+```kotlin
+// EJEMPLO EN CÓDIGO OPERADORES DE COMPARACIÓN
+fun main() {
+    val numero1 = 10
+    val numero2 = 5
+
+    println("numero1 es igual a numero2: ${numero1 == numero2}")
+    println("numero1 no es igual a numero2: ${numero1 != numero2}")
+    println("numero1 es mayor que numero2: ${numero1 > numero2}")
+    println("numero1 es menor que numero2: ${numero1 < numero2}")
+    println("numero1 es mayor o igual que numero2: ${numero1 >= numero2}")
+    println("numero1 es menor o igual que numero2: ${numero1 <= numero2}")
+}
+```
+
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/d2e30b5b53d52d7864da865b2a7135a3ed981f4f/tarjeta-2/Operadores%20Logicos..PNG)**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+
+
+```
