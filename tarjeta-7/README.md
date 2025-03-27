@@ -36,9 +36,9 @@ Los bucles, también conocidos como "loopers", son estructuras de control fundam
 
 🔗 **[LINK DE CODIGO USANDO DO-WHILE](https://pl.kotl.in/t1LihT3Fl?theme=darcula&readOnly=true)** 
 
-🔗 **[LINK DE CODIGO USANDO CON RANGOS](https://pl.kotl.in/J2Ne2xDcK?theme=darcula&readOnly=true)** 
+🔗 **[LINK DE CODIGO USANDO RANGOS](https://pl.kotl.in/J2Ne2xDcK?theme=darcula&readOnly=true)** 
 
-🔗 **[LINK DE CODIGO USANDO CON FOREACH](https://pl.kotl.in/tC3V-N9H8?theme=darcula&readOnly=true)** 
+🔗 **[LINK DE CODIGO USANDO FOREACH](https://pl.kotl.in/tC3V-N9H8?theme=darcula&readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
