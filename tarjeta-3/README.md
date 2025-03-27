@@ -66,8 +66,21 @@ Ejemplo: println("Mundo!")
    - Utilice un editor de código para lograrlo.
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
+fun main() {  
+    val nombre = "Salome"  
 
+    // Imprimir el nombre en mayúsculas  
+    println("Nombre en mayúsculas: ${nombre.uppercase()}")  
 
+    // Imprimir el nombre en minúsculas  
+    println("Nombre en minúsculas: ${nombre.lowercase()}")  
+
+    // Contar cuántas letras tiene el nombre  
+    println("El nombre tiene ${nombre.length} letras.")  
+
+    // Verificar si el nombre contiene la letra 'a'  
+    println("¿El nombre contiene la letra 'a'? ${nombre.contains("a")}")  
+}  
 ```
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
