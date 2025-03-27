@@ -1,36 +1,34 @@
 #### ESTRUCTURA NUMERO 6  
-# Collections, json y manejo de datos 
+# LOOPS
 
 ---
 
 1. **Describa el por qué y para qué se utiliza.**
 
-# Collections y Arrays
+Los bucles son estructuras de control que permiten repetir un bloque de código varias veces. En Kotlin, existen principalmente tres tipos de bucles:
 
-## Collections
 
-Las colecciones son estructuras de datos que permiten almacenar y manejar múltiples elementos.
+### For:
 
-### Listas (Lists):
+Se utiliza para iterar sobre una secuencia de valores, como un rango de números, una colección o un array.
+For tiene diferentes formas de usarse…
 
-Las listas son colecciones ordenadas de elementos que pueden contener elementos duplicados.
+   -Iterar sobre un rango
+   -Iterar sobre una colección
+   -Iterar sobre un array
+   -Para saltar en vez de incrementar uno en uno
+   -Para crear un rango de números en orden descendente
 
-* `List`: Interfaz inmutable (no se pueden modificar los elementos después de la creación).
-* `MutableList`: Interfaz mutable (se pueden agregar, eliminar o modificar elementos).
 
-### Conjuntos (Sets):
+### While:
 
-Colecciones de elementos únicos (no pueden contener duplicados).
+Ejecuta un bloque de código mientras una condición sea verdadera.
 
-* `Set`: Interfaz inmutable.
-* `MutableSet`: Interfaz mutable.
 
-### Mapas (Maps):
+### Do while
 
-Colecciones de pares clave:valor, donde la clave es inmutable y el valor es mutable.
+Similar al bucle while, pero garantiza que el bloque de código se ejecute al menos una vez, ya que la condición se verifica al final del bucle.
 
-* `Map`: Interfaz inmutable.
-* `MutableMap`: Interfaz mutable.
 
 ## Arrays
 
@@ -40,11 +38,32 @@ En Kotlin, los arrays se representan mediante la clase `Array`. También proporc
 
 ---
    
-2. **Genere un ejemplo internamente en el recuadro.**  
+2. **Genere un ejemplo internamente en el recuadro.**
 
-   - Utilice un editor de código para lograrlo.  
+-For:
+   Itera sobre un rango:
+      🔗 **[LINK DE CODIGO](https://pl.kotl.in/YOeQAoRtk?readOnly=true)** 
+   
+   Itera sobre una colección:
+      🔗 **[LINK DE CODIGO](https://pl.kotl.in/nm-oj2DpO?readOnly=true)**
+   
+   Iterar sobre un array:
+      🔗 **[LINK DE CODIGO](https://pl.kotl.in/Hqr0Pyjw5?readOnly=true)**
 
-🔗 **[LINK DE CODIGO]()** 
+   Para saltar en vez de incrementar uno en uno:
+      🔗 **[LINK DE CODIGO](https://pl.kotl.in/clGs42zoh?readOnly=true)**
+
+   Para crear un rango de números en orden descendente:
+      🔗 **[LINK DE CODIGO](https://pl.kotl.in/E7hZ5RZaC?readOnly=true)**
+
+
+   
+-While:
+   🔗 **[LINK DE CODIGO](https://pl.kotl.in/gTuB-Fqwy?readOnly=true)** 
+      
+-Do While:
+   🔗 **[LINK DE CODIGO](https://pl.kotl.in/TtPT6kLO6?readOnly=true)** 
+
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
