@@ -30,7 +30,7 @@ Los bucles, también conocidos como "loopers", son estructuras de control fundam
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO]()** 
+🔗 **[LINK DE CODIGO USANDO FOR](https://pl.kotl.in/KfLg6xLgi?theme=darcula&readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
