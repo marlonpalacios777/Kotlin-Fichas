@@ -126,6 +126,20 @@ fun main() {
 
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Edwin y Salome están haciendo cálculos, para saber quién gana y Marlon sera la consola
+    val numEdwin = 17 // Edwin dice: "Yo tengo 17 años"
+    val numSalome = 10 // Salome responde: "Pues yo tengo 10 años"
 
+    // Vamos a sumar y restar para ver quién tiene más.
+    val total = numEdwin + numSalome // Edwin: "Si sumamos, tenemos..."
+    val diferencia = numEdwin - numSalome // Salome: "Y si restamos, la diferencia es..."
 
+    // ¿Quién tiene más? Veremos si Edwin le gana a Salome.
+    val edwinMayor = numEdwin > numSalome // Edwin: "¿Soy mayor que Salome?"
+
+    // ¡Mostramos los resultados para que no haya trampa!
+    println("Total: $total, Diferencia: $diferencia") // "El total es... y la diferencia es..."
+    println("¿Edwin mayor que Salome? $edwinMayor") // "Y... ¿Edwin es mayor? Ya lo sabremos por parte de Marlon.."
+}
 ```
