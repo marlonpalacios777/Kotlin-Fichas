@@ -122,7 +122,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/45ef0d0fe0430910e298521d3b0811d04be69143/tarjeta-2/OPERADORES%20MATEM%C3%81TICOS%20Y%20L%C3%93GICOS.PNG)**
 
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
