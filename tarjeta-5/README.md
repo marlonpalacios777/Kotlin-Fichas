@@ -32,25 +32,105 @@
   Se declaran con val para variables inmutables o var para variables mutables.
 
 ---
-   
 2. **Genere un ejemplo internamente en el recuadro.**  
 
-   - Lists
-     🔗 **[LINK DE CODIGO](https://pl.kotl.in/2EwVhJZtR?readOnly=true)** 
-
-   - Sets
-     🔗 **[LINK DE CODIGO](https://pl.kotl.in/NV_ltqnN2?readOnly=true)** 
-
-   - Maps
-     🔗 **[LINK DE CODIGO](https://pl.kotl.in/qKVq4-CA9?readOnly=true)**
-     
-   - Arrays
-     🔗 **[LINK DE CODIGO](https://pl.kotl.in/QHkqg0ItC?readOnly=true)** 
- 
+   - Utilice un editor de código para lograrlo.
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN - LIST
+fun main() {
+   val frutas = listOf("banana", "pera", "kiwi", "mango", "piña")
 
 
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+   println("Usando get(): ${frutas.get(2)}")
+   println("Usando elemnetAt(): ${(frutas.elementAt(3))}")
+
+
+   println("Primer Elemento: ${(frutas.first())}")
+   println("Ultimo Elemento: ${(frutas.last())}")
+}
+```
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN - SETS
+fun main() {
+   val mapInmutable: Map<String, Int> = mapOf(
+       "manzana" to 1,
+       "banana" to 2,
+       "naranja" to 3
+   )
+   println("Map inmutable: $mapInmutable")
+  
+   val mapMutable: MutableMap<String, Int> = mutableMapOf(
+       "manzana" to 1,
+       "banana" to 2,
+       "naranja" to 3
+   )
+   mapMutable["manzana"] = 4
+   println("MutableMap después de modificar un valor: $mapMutable")
+  
+   mapMutable["uva"] = 5
+   println("MutableMap después de añadir una nueva clave y valor: $mapMutable")
+  
+   mapMutable.remove("banana")
+   println("MutableMap después de eliminar una clave: $mapMutable")
+}
+```
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN - MAPS
+val mapa: Map<String, String> = mapOf("Edwin" to "Giraldo",
+                                        "Angela" to "Agilar",
+                                        "Emmanuel" to "Cano",
+                                        "Emma" to "Lopez",
+                                        "Salomon" to "Tovar")
+   for ((name, lastName) in mapa){
+       if(name.startsWith("E")){
+           println(lastName)
+       }
+   }
+}
+```
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN - ARRAYS
+val numeros: Array<Int> = arrayOf(60, 2, 3, 4, 5, 6, 7, 8, 9)
+for (elem in numeros){
+   println(elem)
+}
+```
+
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Variables de ejemplo
+    val puntuacion = 85
+    val diaDeLaSemana = 3
+
+    // Calificación basada en la puntuación
+    val calificacion = when (puntuacion) {
+        in 90..100 -> "A"
+        in 80..89 -> "B"
+        in 70..79 -> "C"
+        in 60..69 -> "D"
+        else -> "F"
+    }
+    println("Tu calificación es $calificacion")
+
+    // Nombre del día de la semana
+    val nombreDia = when (diaDeLaSemana) {
+        1 -> "Lunes"
+        2 -> "Martes"
+        3 -> "Miércoles"
+        4 -> "Jueves"
+        5 -> "Viernes"
+        6 -> "Sábado"
+        7 -> "Domingo"
+        else -> "Día inválido"
+    }
+    println("Hoy es $nombreDia")
+}
+```
