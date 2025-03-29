@@ -60,6 +60,7 @@ fun main(){
    }
 }
 ```
+```Kotlin
 // EJEMPLO #4 EN CÓDIGO KOTLIN - WHEN
 fun main() {
     val numero = 3
@@ -82,7 +83,7 @@ fun main() {
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 
-```Kotlin
+```kotlin
 // EJERCICIO CREADO EN KOTLIN
 fun main() {
     // Ejemplo de if, else if y else:
