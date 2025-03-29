@@ -1,27 +1,24 @@
-#### ESTRUCTURA NÚMERO 4 
-# CONTROL DE FLUJO  
+#### ESTRUCTURA NÚMERO 4
+# CONTROL DE FLUJO
 
 ---
 
-1. **Describa el por qué y para qué se utiliza.**
+## 1. Descripción: Por qué y para qué se utiliza el control de flujo
 
-  Los condicionales en programación son estructuras de control que permiten ejecutar diferentes bloques de código según si una condición es verdadera o falsa. Pueden ser simples (if), compuestos (if-else), múltiples (if-elseif-else o switch-case)
-Son esenciales para la toma de decisiones y el control del flujo de un programa:
+Los condicionales en programación son estructuras de control que permiten ejecutar diferentes bloques de código según si una condición es verdadera o falsa. Pueden ser simples (`if`), compuestos (`if-else`), múltiples (`if-elseif-else` o `when`). Son esenciales para la toma de decisiones y el control del flujo de un programa.
 
+### ¿Por qué se utilizan?
 
--If:
-  Se utiliza para ejecutar un bloque de código si una condición especifica es verdadera.
+* **Toma de decisiones**: Permiten que el programa elija qué código ejecutar en función de ciertas condiciones.
+* **Control de flujo**: Definen el orden en que se ejecutan las instrucciones del programa.
+* **Flexibilidad**: Permiten crear programas que se adaptan a diferentes situaciones y entradas de datos.
 
--Else:
-  Utilizado en conjunto con if.
+### ¿Para qué se utilizan?
 
--Else if:
-  Se utiliza para verificar múltiples condiciones en secuencia permitiendo manejar múltiples casos sin anidar múltiples   sentencias if.
-
--When:
-  La expresión when es una estructura de control de flujo que permite ejecutar diferentes bloques de código basados en el valor de una variable o expresión.
-
----
+* **Validación de datos**: Verificar si una entrada de usuario cumple con ciertos requisitos.
+* **Implementación de lógica de negocio**: Aplicar reglas y políticas específicas de una aplicación.
+* **Manejo de errores**: Ejecutar código alternativo en caso de que ocurra un error.
+* **Creación de menús y opciones**: Mostrar diferentes opciones al usuario según su selección.
    
 2. **Genere un ejemplo internamente en el recuadro.**  
   - Utilice un editor de código para lograrlo.
