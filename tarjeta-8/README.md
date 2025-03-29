@@ -24,18 +24,89 @@ Reducción de datos: Combinar los elementos de una colección en un solo valor.
    
 2. **Genere un ejemplo internamente en el recuadro.**  
 
-   - Utilice un editor de código para lograrlo.  
+   - Utilice un editor de código para lograrlo.
+**MAP**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    val numeros = listOf(1, 2, 3, 4, 5)
+    val cuadrados = numeros.map { it * it } // Utilizamos map para aplicar una función (elevar al cuadrado) a cada elemento de la lista.
+    println("Cuadrados: $cuadrados") // Salida: [1, 4, 9, 16, 25]
+}
+```
+**FILTER**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    val nombres = listOf("Salomé", "Edwin", "Marlon", "Yusef", "SofiaPlus")
+    val nombresConM = nombres.filter { it.startsWith('M') } // Utilizamos filter para seleccionar solo los nombres que comienzan con 'M'.
+    println("Nombres con M: $nombresConM") // Salida: [Marlon]
+}
+```
+**REDUCE**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    val numeros = listOf(1, 2, 3, 4, 5)
+    val suma = numeros.reduce { acc, numero -> acc + numero } // Utilizamos reduce para sumar todos los números de la lista en un solo valor.
+    println("Suma: $suma") // Salida: 15
+}
+```
+**FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    val nombres = listOf("Salomé", "Edwin", "Marlon", "Yusef")
+    val saludos = nombres.map { "Hola, $it!" } // Utilizamos map para crear una nueva lista de saludos personalizados.
+    println(saludos) // Salida: [Hola, Salomé!, Hola, Edwin!, Hola, Marlon!, Yusef!]
+}
+```
 
-🔗 **[LINK DE CODIGO MAP](https://pl.kotl.in/p6pcC2KCV?theme=darcula&readOnly=true)** 
-
-🔗 **[LINK DE CODIGO FILTER](https://pl.kotl.in/UTriKYd0W?theme=darcula&readOnly=true)** 
-
-🔗 **[LINK DE CODIGO REDUCE](https://pl.kotl.in/K-PeVBbvi?theme=darcula&readOnly=true)** 
-
-🔗 **[LINK DE CODIGO FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA](https://pl.kotl.in/jcJrFwAO6?theme=darcula&readOnly=true)** 
-
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // ¡Empezamos creando una lista de jugadores y cada jugador tiene su nombre y el número de goles que metió.
+    val jugadores = listOf(
+        "Marlon" to 5, // Marlon metió 5 goles
+        "Edwin" to 8,  // Edwin metió 8 goles
+        "Salome" to 3, // Salome metió 3 goles
+        "Yusef" to 10  // Yusef metió 10 goles
+    )
+
+    // 1. Queremos saber los nombres de todos los jugadores. Usamos 'map' para transformar la lista.
+    // 'it.first' nos da el nombre de cada jugador. Es como decirle "dame el primer dato de cada jugador."
+    val nombres = jugadores.map { it.first } 
+    println("Nombres de los jugadores: $nombres") // Aquí los imprimimos
+
+    // 2. Ahora, vamos a ver quiénes son los goleadores, los que metieron más de 5 goles.
+    // 'filter' nos ayuda a seleccionar solo los jugadores que cumplen la condición 'it.second > 5'.
+    // 'it.second' es el número de goles de cada jugador.
+    val goleadores = jugadores.filter { it.second > 5 }
+    println("Goleadores (más de 5 goles): $goleadores") // Mostramos a los goleadores
+
+    // 3. Queremos saber el total de goles que metió todo el equipo.
+    // 'fold' nos permite acumular los goles de todos los jugadores.
+    // Empezamos con 0 goles ('0') y vamos sumando los goles de cada jugador ('acumulador + jugador.second').
+    val totalGoles = jugadores.fold(0) { acumulador, jugador -> acumulador + jugador.second }
+    println("Total de goles anotados: $totalGoles") // Imprimimos el total
+
+    // ¡Y ahora, algo importante, vamos a manejar el caso de que no haya jugadores en la lista.
+    // Usamos 'try-catch' para atrapar posibles errores.
+    try {
+        // Buscamos el máximo número de goles. 'maxByOrNull' nos da el jugador con más goles, o 'null' si no hay jugadores.
+        // Si no hay jugadores, lanzamos un error con 'throw Exception'.
+        val maxGoles = jugadores.maxByOrNull { it.second }?.second ?: throw Exception("No hay jugadores en la lista")
+        println("Máximo número de goles: $maxGoles") // Mostramos el máximo número de goles
+    } catch (e: Exception) {
+        // Si hubo un error, lo atrapamos aquí y imprimimos el mensaje.
+        println("Error: ${e.message}")
+    }
+}
+```
