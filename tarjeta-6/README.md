@@ -46,7 +46,7 @@ JSON (JavaScript Object Notation) es un formato de intercambio de datos ligero y
 **Genere un ejemplo internamente en el recuadro.**
 
 * **Ejemplo - Colecciones:**:
-    ```kotlin
+ ```kotlin
   fun main() {
     // Listas (Lists)
     val nombres = listOf("Marlon", "Edwin", "Salome")
@@ -60,7 +60,7 @@ JSON (JavaScript Object Notation) es un formato de intercambio de datos ligero y
     val edades = mapOf("Marlon" to 25, "Edwin" to 30, "Salome" to 28)
     println("Edad de Marlon: ${edades["Marlon"]}") // Imprime la edad de Marlon
 }
-    ```
+```
 
 * **Ejemplo - JSON**:
     ```kotlin
@@ -86,7 +86,7 @@ fun main() {
     val jugadorJson = Json.encodeToString(jugador)
     println("Jugador JSON: $jugadorJson")
 }
-    ```
+```
 
 * **Ejemplo - Manejo de Datos (ejemplo simple):**:
     ```kotlin
