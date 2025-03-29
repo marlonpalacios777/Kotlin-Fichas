@@ -111,7 +111,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/b2da4e8186f991cc449921345799388a5c69979e/tarjeta-6/Collections%2C%20json%20y%20manejo%20de%20datos.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
