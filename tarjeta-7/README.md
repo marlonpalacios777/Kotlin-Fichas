@@ -1,9 +1,9 @@
-#### ESTRUCTURA NÚMERO 7
-# LOOPERS, BUCLES
+#### ESTRUCTURA NÚMERO 6
+# BUCLES (LOOPS) EN KOTLIN
 
 ---
 
-**1. Descripción: Por qué y para qué se utilizan los bucles**
+## 1. Descripción: Por qué y para qué se utilizan los bucles
 
 Los bucles, también conocidos como "loopers", son estructuras de control fundamentales en programación que permiten ejecutar un bloque de código de forma repetida hasta que se cumple una condición específica. Son esenciales para automatizar tareas repetitivas y procesar colecciones de datos de manera eficiente.
 
@@ -24,21 +24,58 @@ Los bucles, también conocidos como "loopers", son estructuras de control fundam
 * **Validación de entradas de usuario**: Solicitar al usuario que ingrese datos válidos y repetir la solicitud hasta que se cumpla una condición específica.
 * **Implementación de algoritmos**: Ejecutar pasos repetitivos en algoritmos de búsqueda, ordenamiento y otros tipos de procesos computacionales.
 
----
-   
-2. **Genere un ejemplo internamente en el recuadro.**  
+## 2. Ejemplos de bucles en Kotlin
 
-   - Utilice un editor de código para lograrlo.  
+### Bucle `for`
 
-🔗 **[LINK DE CODIGO USANDO FOR](https://pl.kotl.in/KfLg6xLgi?theme=darcula&readOnly=true)** 
+Se utiliza para iterar sobre una secuencia de valores (rangos, colecciones, arrays).
 
-🔗 **[LINK DE CODIGO USANDO WHILE](https://pl.kotl.in/yJUYiPC4w?theme=darcula&readOnly=true)** 
+```kotlin
+fun main() {
+    val nombres = listOf("Ficha 2899621", "Profesor Yusef", "Salomé", "Edwin", "Marlon")
+    for (nombre in nombres) {
+        println("Hola, $nombre!") // Imprime un saludo para cada nombre en la lista.
+    }
+}
+```
+```kotlin
+WHILE:
+fun main() {
+    var contador = 0
+    while (contador < 5) {
+        println("Contador: $contador") // Imprime el valor del contador en cada iteración.
+        contador++ // Incrementa el contador en 1.
+    }
+}
+```
+```kotlin
+DO-WHILE:
+fun main() {
+    var intentos = 0
+    do {
+        println("Intento número ${intentos + 1}") // Imprime el número de intento.
+        intentos++ // Incrementa el número de intentos.
+    } while (intentos < 3) // Continúa hasta que se realicen 3 intentos.
+}
+```
+```kotlin
+FOR:
+fun main() {
+    for (i in 1..5) {
+        println("Número: $i") // Imprime los números del 1 al 5.
+    }
+}
+```
+```kotlin
+FOREACH:
+fun main() {
+    val salidas = listOf("el centro comercial", "el parque", "el SENA")
 
-🔗 **[LINK DE CODIGO USANDO DO-WHILE](https://pl.kotl.in/t1LihT3Fl?theme=darcula&readOnly=true)** 
-
-🔗 **[LINK DE CODIGO USANDO RANGOS](https://pl.kotl.in/J2Ne2xDcK?theme=darcula&readOnly=true)** 
-
-🔗 **[LINK DE CODIGO USANDO FOREACH](https://pl.kotl.in/tC3V-N9H8?theme=darcula&readOnly=true)** 
+    salidas.forEach { salida ->
+        println("Me gusta $salida") // Imprime una frase para cada elemento de la lista.
+    }
+}
+```
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
