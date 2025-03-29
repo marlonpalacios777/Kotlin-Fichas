@@ -24,9 +24,9 @@ Los bucles, también conocidos como "loopers", son estructuras de control fundam
 * **Validación de entradas de usuario**: Solicitar al usuario que ingrese datos válidos y repetir la solicitud hasta que se cumpla una condición específica.
 * **Implementación de algoritmos**: Ejecutar pasos repetitivos en algoritmos de búsqueda, ordenamiento y otros tipos de procesos computacionales.
 
-## 2. Ejemplos de bucles en Kotlin
+## 2. Ejemplos de bucles
 
-### Bucle `for`
+### Bucle `FOR`
 
 Se utiliza para iterar sobre una secuencia de valores (rangos, colecciones, arrays).
 
@@ -38,8 +38,8 @@ fun main() {
     }
 }
 ```
+### Bucle `WHILE`
 ```kotlin
-WHILE:
 fun main() {
     var contador = 0
     while (contador < 5) {
@@ -48,8 +48,8 @@ fun main() {
     }
 }
 ```
+### Bucle `DO-WHILE`
 ```kotlin
-DO-WHILE:
 fun main() {
     var intentos = 0
     do {
@@ -58,16 +58,16 @@ fun main() {
     } while (intentos < 3) // Continúa hasta que se realicen 3 intentos.
 }
 ```
+### Bucle `FOR`
 ```kotlin
-FOR:
 fun main() {
     for (i in 1..5) {
         println("Número: $i") // Imprime los números del 1 al 5.
     }
 }
 ```
+### Bucle `FOREACH`
 ```kotlin
-FOREACH:
 fun main() {
     val salidas = listOf("el centro comercial", "el parque", "el SENA")
 
