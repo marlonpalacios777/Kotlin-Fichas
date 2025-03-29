@@ -41,17 +41,61 @@ La depuración es el proceso de identificar y corregir errores en el código. Se
 * **Registro de mensajes (Logging)**: Imprimir mensajes en la consola para rastrear el flujo de ejecución y el estado de las variables.
 
 ---
-   
+
 2. **Genere un ejemplo internamente en el recuadro.**  
 
-   - Utilice un editor de código para lograrlo.  
+   - Utilice un editor de código para lograrlo.
 
-🔗 **[LINK DE CODIGO PRUEBA FUNCION SIMPLE](https://pl.kotl.in/OZNGZ2sD_?theme=darcula&readOnly=true)** 
+**EJEMPLO PRUEBA FUNCIÓN SIMPLE**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun sumar(a: Int, b: Int): Int {
+    return a + b // Esta función simplemente suma dos números enteros.
+}
 
-🔗 **[LINK DE CODIGO CON PRINTLN](https://pl.kotl.in/ld5nxJiUu?theme=darcula&readOnly=true)** 
+fun main() {
+    val resultado = sumar(6, 3) // Llamamos a la función sumar con los valores 5 y 3.
+    if (resultado == 8) { // Verificamos si el resultado es igual a 8.
+        println("Prueba de suma: ¡Pasó!") // Si el resultado es 8, la prueba pasa.
+    } else {
+        println("Prueba de suma: ¡Falló! Se esperaba 8, pero se obtuvo $resultado") // Si el resultado no es 8, la prueba falla.
+    }
+}
+```
+**EJEMPLO PRINTLN**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun main() {
+    var suma = 0 // Inicializamos la variable suma en 0.
+    for (i in 1..5) { // Iteramos sobre los números del 1 al 5.
+        suma += i // Sumamos el valor de i a la variable suma.
+        println("i = $i, suma = $suma") // Imprimimos el valor de i y suma en cada iteración para ver cómo cambian.
+    }
+    println("Suma total: $suma") // Imprimimos la suma total después de completar el bucle.
+}
+```
 
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+    fun dividir(a: Int, b: Int): Int {
+        // Posible error: división por cero
+        return a / b
+    }
+
+    // Pruebas
+    println("Prueba: dividir 10 / 2 = ${dividir(10, 2)}")
+    //println("Prueba error: dividir 10 / 0 = ${dividir(10, 0)}") // Esto causa un error
+
+    // Depuración:
+    // Puedes usar un punto de interrupción en la función "dividir"
+    // para revisar los valores de "a" y "b".
+}
+```
