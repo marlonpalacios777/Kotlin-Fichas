@@ -25,7 +25,8 @@ Reducción de datos: Combinar los elementos de una colección en un solo valor.
 2. **Genere un ejemplo internamente en el recuadro.**  
 
    - Utilice un editor de código para lograrlo.
-**MAP**
+
+**EJEMPLO MAP**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun main() {
@@ -34,7 +35,7 @@ fun main() {
     println("Cuadrados: $cuadrados") // Salida: [1, 4, 9, 16, 25]
 }
 ```
-**FILTER**
+**EJEMPLO FILTER**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun main() {
@@ -43,7 +44,7 @@ fun main() {
     println("Nombres con M: $nombresConM") // Salida: [Marlon]
 }
 ```
-**REDUCE**
+**EJEMPLO REDUCE**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun main() {
@@ -52,7 +53,7 @@ fun main() {
     println("Suma: $suma") // Salida: 15
 }
 ```
-**FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA**
+**EJEMPLO DE FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun main() {
