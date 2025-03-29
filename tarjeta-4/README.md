@@ -80,7 +80,8 @@ fun main() {
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 
-```// EJERCICIO CREADO EN KOTLIN
+```
+// EJERCICIO CREADO EN KOTLIN
 fun main() {
     // Ejemplo de if, else if y else:
 
