@@ -90,8 +90,45 @@ while (contador < 5) {
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Lista de aprendices del SENA
+    val aprendices = listOf("Marlon", "Salomé", "Edwin")
 
+    // Imprimir nombres usando un bucle for
+    for (aprendiz in aprendices) {
+        println("Aprendiz: $aprendiz")
+    }
 
+    // Mapa de aprendices y sus roles
+    val rolesAprendices = mapOf("Marlon" to "Desarrollador", "Salomé" to "Diseñadora", "Edwin" to "Analista")
+
+    // Imprimir roles usando un bucle for
+    for ((aprendiz, rol) in rolesAprendices) {
+        println("$aprendiz es $rol")
+    }
+
+    // Contar hasta 3 con un bucle while
+    var contador = 1
+    while (contador <= 3) {
+        println("Contador: $contador")
+        contador++
+    }
+
+    // Validar nombre del profesor Yusef con do-while
+    var nombre: String
+    var intentos = 0
+    do {
+        print("Ingresa el nombre del profesor: ")
+        nombre = readLine() ?: ""
+        intentos++
+        if (intentos >= 5) {
+            println("Demasiados intentos. Saliendo.")
+            return // Salir de la función main
+        }
+    } while (nombre.lowercase() != "yusef")
+
+    println("¡Bienvenido, profesor $nombre!")
+}
 ```
 
 
