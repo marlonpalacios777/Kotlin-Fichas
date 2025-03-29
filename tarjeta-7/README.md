@@ -1,5 +1,5 @@
-#### ESTRUCTURA NÚMERO 6
-# BUCLES (LOOPS) EN KOTLIN
+#### ESTRUCTURA NÚMERO 7
+# Loopers, Bucles
 
 ---
 
@@ -76,9 +76,50 @@ fun main() {
     }
 }
 ```
-
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/f8aa10d9293a7a1c464674d5f2bda1a400a98b3b/tarjeta-1/Variables%20Tipos%20de%20Datos.PNG)**.
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Lista de aprendices del SENA
+    val aprendices = listOf("Marlon", "Salomé", "Edwin", "Yusef")
+
+    // Imprimir nombres con un bucle for-each
+    aprendices.forEach { aprendiz ->
+        println("Aprendiz: $aprendiz")
+    }
+
+    // Mapa de aprendices y sus edades
+    val edadesAprendices = mapOf("Marlon" to 25, "Salomé" to 22, "Edwin" to 28, "Yusef" to 30)
+
+    // Imprimir aprendices y edades con for-each y desestructuración
+    edadesAprendices.forEach { (aprendiz, edad) ->
+        println("$aprendiz tiene $edad años.")
+    }
+
+    // Contar hasta 5 con un bucle while
+    var contador = 1
+    while (contador <= 5) {
+        println("Contador: $contador")
+        contador++
+    }
+
+    // Simular una suma de números con un bucle do-while
+    var suma = 0
+    var numeros = listOf(2, 3, 4, 5) // Lista de números de ejemplo
+    var indice = 0
+    do {
+        suma += numeros[indice]
+        println("Suma actual: $suma")
+        indice++
+    } while (suma <= 10 && indice < numeros.size)
+
+    println("La suma es $suma.")
+}
+
+```
