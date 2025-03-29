@@ -3,21 +3,21 @@
 
 ---
 
-## 1. Por qué y para qué se utilizan
+## 1. Por qué y para qué se utilizan las estructuras de decisión y control
 
 Las estructuras de decisión y control son herramientas fundamentales en la programación que permiten que un programa tome decisiones y controle el flujo de ejecución. Esto significa que el programa puede elegir diferentes caminos o repetir acciones según ciertas condiciones.
 
-### ¿Por qué se utilizan las variables?
+### ¿Por qué se utilizan?
 
-Flexibilidad: Permiten que los programas se adapten a diferentes situaciones y entradas.
-Lógica compleja: Facilitan la implementación de algoritmos y lógica compleja.
-Eficiencia: Permiten evitar la repetición innecesaria de código.
+* **Flexibilidad**: Permiten que los programas se adapten a diferentes situaciones y entradas.
+* **Lógica compleja**: Facilitan la implementación de algoritmos y lógica compleja.
+* **Eficiencia**: Permiten evitar la repetición innecesaria de código.
 
-### ¿Para qué se utilizan las variables?
+### ¿Para qué se utilizan?
 
-Tomar decisiones: Ejecutar diferentes bloques de código según si se cumplen ciertas condiciones.
-Repetir acciones: Ejecutar un bloque de código varias veces hasta que se cumpla una condición.
-Controlar el flujo: Determinar el orden en que se ejecutan las instrucciones.
+* **Tomar decisiones**: Ejecutar diferentes bloques de código según si se cumplen ciertas condiciones.
+* **Repetir acciones**: Ejecutar un bloque de código varias veces hasta que se cumpla una condición.
+* **Controlar el flujo**: Determinar el orden en que se ejecutan las instrucciones.
 
 ---
 
@@ -25,21 +25,6 @@ Controlar el flujo: Determinar el orden en que se ejecutan las instrucciones.
 
    - Utilice un editor de código para lograrlo.
 
-**Ejemplo - Condicionales (if-else):**
-```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN
-fun verificarEdad(edad: Int) {
-    if (edad >= 18) {
-        println("Puede votar")
-    } else {
-        println("No puede votar")
-    }
-}
-fun main() {
-    verificarEdad(20) // Imprime "Puede votar"
-    verificarEdad(15) // Imprime "No puede votar"
-}
-```
 **Ejemplo - Condicionales (if-else):**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
