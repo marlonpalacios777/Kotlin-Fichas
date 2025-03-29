@@ -24,7 +24,7 @@ Los bucles, también conocidos como "loopers", son estructuras de control fundam
 * **Validación de entradas de usuario**: Solicitar al usuario que ingrese datos válidos y repetir la solicitud hasta que se cumpla una condición específica.
 * **Implementación de algoritmos**: Ejecutar pasos repetitivos en algoritmos de búsqueda, ordenamiento y otros tipos de procesos computacionales.
 
-## 2. Ejemplos de bucles
+## Ejemplos de bucles
 
 ### Bucle `FOR`
 
@@ -80,7 +80,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/f8aa10d9293a7a1c464674d5f2bda1a400a98b3b/tarjeta-1/Variables%20Tipos%20de%20Datos.PNG)**.
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/3d904ffd13dd2435450720eeb709c1d2f69239ae/tarjeta-7/BUCLES%20(LOOPS).PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
