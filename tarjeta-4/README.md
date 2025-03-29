@@ -34,7 +34,7 @@ fun main() {
     }
 }
 ```
-// EJEMPLO #2 EN CÓDIGO KOTLIN - ELSE
+```// EJEMPLO #2 EN CÓDIGO KOTLIN - ELSE
 fun main(){
    val edad = 16
    if (edad >= 18){
@@ -44,7 +44,7 @@ fun main(){
    }
 }
 ```
-// EJEMPLO #3 EN CÓDIGO KOTLIN - ELSE IF
+```// EJEMPLO #3 EN CÓDIGO KOTLIN - ELSE IF
 fun main(){
    val puntuacion = 90
    if (puntuacion >= 90) {
@@ -80,7 +80,7 @@ fun main() {
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 
-// EJERCICIO CREADO EN KOTLIN
+```// EJERCICIO CREADO EN KOTLIN
 fun main() {
     // Ejemplo de if, else if y else:
 
