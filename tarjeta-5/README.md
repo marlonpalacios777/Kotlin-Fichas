@@ -1,98 +1,126 @@
 #### ESTRUCTURA NÚMERO 5  
-# COLLECTIONS Y ARRAYS
+# ESTRUCTURAS DE DESICIÓN, CONTROL Y MANEJO DE ERRORES
 
 ---
 
-# COLLECTIONS 
----
+## 1. Por qué y para qué se utilizan
 
-1. **Describa el por qué y para qué se utiliza.**
+Las estructuras de decisión y control son herramientas fundamentales en la programación que permiten que un programa tome decisiones y controle el flujo de ejecución. Esto significa que el programa puede elegir diferentes caminos o repetir acciones según ciertas condiciones.
 
-  Las colecciones son estructuras de datos que permiten almacenar y manejar múltiples elementos:
+### ¿Por qué se utilizan las variables?
 
-- Listas (Lists):
-  Las listas son colecciones ordenadas de elementos que Pueden contener elementos duplicados.
-  List: Interfaz inmutable (no se pueden modificar los elementos después de la creación).
-  MutableList: Interfaz mutable (se pueden agregar, eliminar o modificar elementos).
+Flexibilidad: Permiten que los programas se adapten a diferentes situaciones y entradas.
+Lógica compleja: Facilitan la implementación de algoritmos y lógica compleja.
+Eficiencia: Permiten evitar la repetición innecesaria de código.
 
-- Conjuntos (Sets):
-  Colecciones de elementos únicos (no pueden contener duplicados).
-  Set: Interfaz inmutable.
-  MutableSet: Interfaz mutable.
+### ¿Para qué se utilizan las variables?
 
-- Mapas (Maps):
-  Colecciones de pares clave:valor el cual la clave es inmutables y el valor es mutable 
-  Map: Interfaz inmutable.
-  MutableMap: Interfaz mutable.
-
-# ARRAYS
----
-- Son colecciones de tamaño fijo de elementos del mismo tipo accediendo a ellos mediante los índices.
-  En Kotlin, los arrays se representan mediante la clase Array. También proporciona clases especializadas para arrays de tipos primitivos, como IntArray, DoubleArray.
-  Se declaran con val para variables inmutables o var para variables mutables.
+Tomar decisiones: Ejecutar diferentes bloques de código según si se cumplen ciertas condiciones.
+Repetir acciones: Ejecutar un bloque de código varias veces hasta que se cumpla una condición.
+Controlar el flujo: Determinar el orden en que se ejecutan las instrucciones.
 
 ---
+
 2. **Genere un ejemplo internamente en el recuadro.**  
 
    - Utilice un editor de código para lograrlo.
+
+**Ejemplo - Condicionales (if-else):**
 ```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN - LIST
+// EJEMPLO EN CÓDIGO KOTLIN
+fun verificarEdad(edad: Int) {
+    if (edad >= 18) {
+        println("Puede votar")
+    } else {
+        println("No puede votar")
+    }
+}
 fun main() {
-   val frutas = listOf("banana", "pera", "kiwi", "mango", "piña")
-
-
-   println("Usando get(): ${frutas.get(2)}")
-   println("Usando elemnetAt(): ${(frutas.elementAt(3))}")
-
-
-   println("Primer Elemento: ${(frutas.first())}")
-   println("Ultimo Elemento: ${(frutas.last())}")
+    verificarEdad(20) // Imprime "Puede votar"
+    verificarEdad(15) // Imprime "No puede votar"
 }
 ```
+**Ejemplo - Condicionales (if-else):**
 ```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN - SETS
+// EJEMPLO EN CÓDIGO KOTLIN
+fun verificarEdad(edad: Int) {
+    if (edad >= 18) {
+        println("Puede votar")
+    } else {
+        println("No puede votar")
+    }
+}
 fun main() {
-   val mapInmutable: Map<String, Int> = mapOf(
-       "manzana" to 1,
-       "banana" to 2,
-       "naranja" to 3
-   )
-   println("Map inmutable: $mapInmutable")
-  
-   val mapMutable: MutableMap<String, Int> = mutableMapOf(
-       "manzana" to 1,
-       "banana" to 2,
-       "naranja" to 3
-   )
-   mapMutable["manzana"] = 4
-   println("MutableMap después de modificar un valor: $mapMutable")
-  
-   mapMutable["uva"] = 5
-   println("MutableMap después de añadir una nueva clave y valor: $mapMutable")
-  
-   mapMutable.remove("banana")
-   println("MutableMap después de eliminar una clave: $mapMutable")
+    verificarEdad(20) // Imprime "Puede votar"
+    verificarEdad(15) // Imprime "No puede votar"
 }
 ```
+**Ejemplo - Bucles (for, while):**
 ```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN - MAPS
-val mapa: Map<String, String> = mapOf("Edwin" to "Giraldo",
-                                        "Angela" to "Agilar",
-                                        "Emmanuel" to "Cano",
-                                        "Emma" to "Lopez",
-                                        "Salomon" to "Tovar")
-   for ((name, lastName) in mapa){
-       if(name.startsWith("E")){
-           println(lastName)
-       }
-   }
+// EJEMPLO EN CÓDIGO KOTLIN
+fun imprimirNumeros() {
+    // Bucle for
+    for (i in 1..10) {
+        println(i)
+    }
+
+    // Bucle while con entrada simulada.
+    val respuestas = listOf("no", "no", "si") // Simulamos la entrada del usuario.
+    var i = 0;
+    var respuesta = "";
+    while (respuesta != "si") {
+        println("¿Desea continuar? (si/no)")
+        respuesta = respuestas[i];
+        println(respuesta);
+        i++;
+    }
+}
+
+fun main() {
+    imprimirNumeros()
 }
 ```
+**Sentencias when:**
 ```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN - ARRAYS
-val numeros: Array<Int> = arrayOf(60, 2, 3, 4, 5, 6, 7, 8, 9)
-for (elem in numeros){
-   println(elem)
+// EJEMPLO EN CÓDIGO KOTLIN
+fun diaDeLaSemana(dia: Int) {
+    when (dia) {
+        1 -> println("Lunes")
+        2 -> println("Martes")
+        3 -> println("Miércoles")
+        4 -> println("Jueves")
+        5 -> println("Viernes")
+        6 -> println("Sábado")
+        7 -> println("Domingo")
+        else -> println("Día inválido")
+    }
+}
+
+fun main() {
+    diaDeLaSemana(3) // Imprime "Miércoles"
+    diaDeLaSemana(8) // Imprime "Día inválido"
+}
+```
+**Ejemplo - Códigos de error:**
+```kotlin
+// EJEMPLO EN CÓDIGO KOTLIN
+fun encontrarElemento(lista: List<Int>, elemento: Int): Int {
+    for (i in lista.indices) {
+        if (lista[i] == elemento) {
+            return i // Devuelve el índice si se encuentra el elemento
+        }
+    }
+    return -1 // Devuelve -1 si el elemento no se encuentra
+}
+
+fun main() {
+    val lista = listOf(1, 2, 3, 4, 5)
+    val indice = encontrarElemento(lista, 3)
+    if (indice != -1) {
+        println("Elemento encontrado en el índice $indice")
+    } else {
+        println("Elemento no encontrado")
+    }
 }
 ```
 
@@ -100,28 +128,19 @@ for (elem in numeros){
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/bb533d1ed64d6908d28c9791ee123534ace35e91/tarjeta-5/COLLECTIONS%20Y%20ARRAYS.PNG)**.
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
 fun main() {
-    // Variables de ejemplo
-    val puntuacion = 85
-    val diaDeLaSemana = 3
+    // Definimos los días en que cada estudiante asistió a clase, usando números (1=Lunes, 2=Martes, etc.)
+    val diasMarlon = 1 // Marlon asistió el Lunes
+    val diasSalome = 3 // Salome asistió el Miércoles
+    val diasEdwin = 5 // Edwin asistió el Viernes
 
-    // Calificación basada en la puntuación
-    val calificacion = when (puntuacion) {
-        in 90..100 -> "A"
-        in 80..89 -> "B"
-        in 70..79 -> "C"
-        in 60..69 -> "D"
-        else -> "F"
-    }
-    println("Tu calificación es $calificacion")
-
-    // Nombre del día de la semana
-    val nombreDia = when (diaDeLaSemana) {
+    // Usamos 'when' para determinar el nombre del día para cada estudiante
+    val diaMarlonNombre = when (diasMarlon) {
         1 -> "Lunes"
         2 -> "Martes"
         3 -> "Miércoles"
@@ -129,8 +148,31 @@ fun main() {
         5 -> "Viernes"
         6 -> "Sábado"
         7 -> "Domingo"
-        else -> "Día inválido"
+        else -> "Día inválido" // Manejamos el caso de un número de día incorrecto
     }
-    println("Hoy es $nombreDia")
+    val diaSalomeNombre = when (diasSalome) {
+        1 -> "Lunes"
+        2 -> "Martes"
+        3 -> "Miércoles"
+        4 -> "Jueves"
+        5 -> "Viernes"
+        6 -> "Sábado"
+        7 -> "Domingo"
+        else -> "Día inválido" // Manejamos el caso de un número de día incorrecto
+    }
+    val diaEdwinNombre = when (diasEdwin) {
+        1 -> "Lunes"
+        2 -> "Martes"
+        3 -> "Miércoles"
+        4 -> "Jueves"
+        5 -> "Viernes"
+        6 -> "Sábado"
+        7 -> "Domingo"
+        else -> "Día inválido" // Manejamos el caso de un número de día incorrecto
+    }
+    // Imprimimos los resultados
+    println("Marlon asistió el $diaMarlonNombre.")
+    println("Salome asistió el $diaSalomeNombre.")
+    println("Edwin asistió el $diaEdwinNombre.")
 }
 ```
