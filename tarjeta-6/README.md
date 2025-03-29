@@ -63,7 +63,7 @@ JSON (JavaScript Object Notation) es un formato de intercambio de datos ligero y
 ```
 
 * **Ejemplo - JSON**:
-    ```kotlin
+```kotlin
 //Para poder trabajar con JSON en Kotlin Playground, necesitamos agregar una librería externa como kotlinx.serialization.
 import kotlinx.serialization.*
 import kotlinx.serialization.json.*
@@ -89,7 +89,7 @@ fun main() {
 ```
 
 * **Ejemplo - Manejo de Datos (ejemplo simple):**:
-    ```kotlin
+```kotlin
   fun main() {
     // Almacenar datos en una lista
     val datos = mutableListOf<Int>()
@@ -105,7 +105,7 @@ fun main() {
     println("Suma: $suma")
     println("Promedio: $promedio")
 }
-    ```
+```
     
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
