@@ -65,7 +65,7 @@ fun main() {
     imprimirNumeros()
 }
 ```
-**Sentencias when:**
+**Ejemplo - Sentencias when:**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun diaDeLaSemana(dia: Int) {
@@ -113,7 +113,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/361a7ec33b381769879dba15d86c2b67f5f527b7/tarjeta-5/ESTRUCTURAS%20DE%20DESICI%C3%93N%2C%20CONTROL%20Y%20MANEJO%20DE%20ERRORES.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
