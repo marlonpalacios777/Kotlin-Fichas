@@ -88,7 +88,7 @@ fun main() {
 }
 ```
 
-* **Ejemplo - Manejo de Datos (ejemplo simple):**:
+* **Ejemplo - Manejo de Datos (ejemplo simple):**
 ```kotlin
   fun main() {
     // Almacenar datos en una lista
@@ -116,8 +116,24 @@ fun main() {
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Imaginemos que tenemos una lista de aprendices del SENA.
+    val aprendicesSENA = listOf("Salomé", "Edwin", "Marlon")
 
+    // Y un mapa con sus fichas.
+    val fichasAprendices = mapOf(
+        "Salomé" to "2899621",
+        "Edwin" to "2899622",
+        "Marlon" to "2899623"
+    )
 
+    // Vamos a mostrar la información de cada aprendiz.
+    aprendicesSENA.forEach { aprendiz ->
+        // Obtenemos la ficha del aprendiz desde el mapa.
+        val ficha = fichasAprendices[aprendiz]
+
+        // Y la imprimimos.
+        println("$aprendiz tiene la ficha $ficha")
+    }
+}
 ```
-
-
