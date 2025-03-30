@@ -71,6 +71,60 @@ class Empleado(val nombre: String, val edad: Int, val salario: Double) {
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
+fun main() {
+    // Aquí empezamos a crear objetos, imaginemos que estamos configurando los datos de los empleados.
+    // Aqui nosotros creamos un Gerente llamado Marlon, con 25 años y un salario de 5000.0, que trabaja en el departamento de Tecnología.
+    val marlon = Gerente("Marlon", 25, 5000.0, "Tecnología")
 
+    // Ahora, creamos un Desarrollador llamado Edwin, con 22 años y un salario de 3500.0, que programa en Kotlin.
+    val edwin = Desarrollador("Edwin", 22, 3500.0, "Kotlin")
 
+    // Y finalmente, creamos otra Desarrolladora llamada Salomé, con 27 años y un salario de 3600.0, que programa en Python.
+    val salome = Desarrollador("Salomé", 27, 3600.0, "Python")
+
+    // ¡Ahora vamos a mostrar la información de cada empleado!
+    // Primero, mostramos la información de Marlon, que es Gerente.
+    marlon.mostrarInfo() // Esto muestra su nombre, edad y salario.
+    marlon.gestionarEquipo() // Esto muestra que Marlon gestiona su equipo.
+
+    // Luego, mostramos la información de Edwin, que es Desarrollador.
+    edwin.mostrarInfo() // Esto muestra su nombre, edad y salario.
+    edwin.programar() // Esto muestra que Edwin está programando en Kotlin.
+
+    // Y finalmente, mostramos la información de Salomé, que también es Desarrolladora.
+    salome.mostrarInfo() // Esto muestra su nombre, edad y salario.
+    salome.programar() // Esto muestra que Salomé está programando en Python.
+}
+
+// Aquí definimos una clase base llamada "Empleado". imaginemos que esta clase tiene la información básica de cualquier empleado.
+open class Empleado(val nombre: String, val edad: Int, var salario: Double) {
+
+    // Este es un método (función dentro de una clase) para mostrar la información básica del empleado.
+    // Usamos 'open' porque queremos que las subclases puedan modificar este método.
+    open fun mostrarInfo() {
+        println("Empleado: $nombre | Edad: $edad | Salario: $$salario")
+    }
+}
+
+// Aquí definimos una subclase llamada "Gerente", que hereda de "Empleado".
+// Esto significa que un Gerente es un tipo de Empleado, pero con información adicional.
+class Gerente(nombre: String, edad: Int, salario: Double, val departamento: String)
+    : Empleado(nombre, edad, salario) {
+
+    // Este es un método exclusivo para Gerentes. Solo los Gerentes pueden gestionar un equipo.
+    fun gestionarEquipo() {
+        println("$nombre es el gerente del departamento de $departamento y gestiona su equipo.")
+    }
+}
+
+// Aquí definimos otra subclase llamada "Desarrollador", que también hereda de "Empleado".
+// Un Desarrollador es un tipo de Empleado, pero con información específica de su trabajo.
+class Desarrollador(nombre: String, edad: Int, salario: Double, val lenguaje: String)
+    : Empleado(nombre, edad, salario) {
+
+    // Este es un método exclusivo para Desarrolladores. Solo ellos pueden programar.
+    fun programar() {
+        println("$nombre está programando en $lenguaje.")
+    }
+}
 ```
