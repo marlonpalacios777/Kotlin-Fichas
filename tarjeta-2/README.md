@@ -121,7 +121,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/4d05f9612f44bb9941e0b1f4aa5f8e09bbda508b/tarjeta-2/Audio%20-%20Tarjeta%20n%C3%BAmero%202..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/45ef0d0fe0430910e298521d3b0811d04be69143/tarjeta-2/OPERADORES%20MATEM%C3%81TICOS%20Y%20L%C3%93GICOS.PNG)**
 
 ```kotlin
