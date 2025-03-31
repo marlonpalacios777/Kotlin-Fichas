@@ -3,7 +3,7 @@
 
 ---
 
-## 1. Descripción: Por qué y para qué se utiliza la Aplicación de otras herramientas
+## 1. Descripción: Por qué y para qué se utiliza la aplicación de otras herramientas
 
 
 ### ¿Por qué se utiliza?
@@ -29,3 +29,9 @@
 
 🔗 **[LINK DEL AUDIO]()**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
+
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
+// EJERCICIO CREADO EN KOTLIN
+
+```
