@@ -65,7 +65,7 @@ class Empleado(val nombre: String, val edad: Int, val salario: Double) {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/776d13c463722d49205333887d15b41524249562/tarjeta-10/Audio%20-%20Tarjeta%20n%C3%BAmero%2010.ogg)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/2d566f077edac58599b08bf15da2f22b1b10b6d7/tarjeta-10/Programaci%C3%B3n%20Orientada%20a%20Objetos%20(POO).PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
