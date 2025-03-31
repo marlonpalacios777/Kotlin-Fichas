@@ -66,7 +66,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/edbe25d21d315732a7994f59e1bb5d1e38142023/tarjeta-8/FUNCIONA%20LAMBDA.ogg)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/6e402ca82e6cb2aed514b8decb2e228a4e3db3d8/tarjeta-8/PROGRAMACI%C3%93N%20FUNCIONAL%20Y%20EXCEPCIONES%20LAMBDA.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
