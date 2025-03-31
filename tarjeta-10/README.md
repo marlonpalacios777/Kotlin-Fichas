@@ -27,7 +27,7 @@ La POO sirve para organizar y estructurar mejor el código, lo que facilita la r
 * **Para estructurar mejor el código y hacerlo más legible**: Divide el programa en módulos independientes llamados objetos, facilitando la lectura y depuración.
 * **Para trabajar en equipo de manera eficiente**: En proyectos grandes, cada desarrollador puede encargarse de diferentes clases sin afectar el trabajo de otros.
 
-La POO se utiliza porque permite hacer código más organizado, reutilizable, mantenible y seguro. Se aplica en múltiples industrias y facilita el desarrollo de software a gran escala. Si queremos ser buenos programadores, la POO es un pilar fundamental que debes dominar.
+La POO se utiliza porque permite hacer código más organizado, reutilizable, mantenible y seguro. Se aplica en múltiples industrias y facilita el desarrollo de software a gran escala. Si queremos ser buenos programadores, la POO es un pilar fundamental que debes dominar.   
 
 ---
    
