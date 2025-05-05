@@ -56,7 +56,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribuye el contenido de arriba a abajo */
-    height: 200px; /* Reducción de la altura de la tarjeta */
+    height: 340px; /* Reducción de la altura de la tarjeta */
     transition: transform 0.3s ease;
     overflow: hidden; /* Evita que el contenido se desborde */
 }
