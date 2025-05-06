@@ -110,7 +110,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/f2ac85fbd5a12cc6244c171879a4a04a504e8b15/tarjeta-6/Audio%20-%20Tarjeta%20n%C3%BAmero%206..mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-6/Audio%20-%20Tarjeta%20n%C3%BAmero%206..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/b2da4e8186f991cc449921345799388a5c69979e/tarjeta-6/Collections%2C%20json%20y%20manejo%20de%20datos.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
