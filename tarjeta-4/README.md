@@ -75,7 +75,7 @@ fun main() {
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/a963f94b9d099e4a4c851901f208f2265bb36114/tarjeta-4/Audio%20-%20Tarjeta%20n%C3%BAmero%204.mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-4/Audio%20-%20Tarjeta%20n%C3%BAmero%204.mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/d2a52de7eae63e46769a2ea7d10d32af14d6ea3a/tarjeta-4/CONTROL%20DE%20FLUJO...PNG)**
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
