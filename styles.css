@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #999898;
     margin: 0;
@@ -23,24 +22,10 @@ header {
     font-weight: bold;
     color: #333;
     animation: mover 1.3s infinite alternate;
-=======
-    font-family: Arial, sans-serif;
-    background-color: #999898; /* Color de fondo más claro */
-    margin: 0;
-    padding: 20px;
-}
-
-.titulo {
-    font-size: 3.5em;
-    font-weight: bold;
-    text-align: center;
-    animation: mover 1.3s infinite alternate; /* La animación dura 1.3 segundos y se repite infinitamente */
->>>>>>> 06e6f2246d64636362a9ba198f46ebbd2b5548d5
 }
 
 @keyframes mover {
     from {
-<<<<<<< HEAD
         transform: translateY(0);
     }
     to {
@@ -90,72 +75,10 @@ header {
     color: #444;
     margin-bottom: 20px; /* Más espacio entre el título y el botón */
     font-weight: bold;
-=======
-        transform: translateY(0); /* Comienza en su posición original */
-    }
-    to {
-        transform: translateY(10px); /* Se mueve 10px hacia abajo */
-    }
-}
-
-
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.logo {
-    width: 320px; /* Tamaño del logo de la página */
-}
-
-h1 {
-    font-size: 3.5em;
-    color: black; /* Color del texto del título de la página */
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas para distribución más compacta */
-    gap: 20px; /* Espacio entre las tarjetas */
-    padding: 20px;
-    max-width: 1200px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor */
-}
-
-.card {
-    background: white;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribuye el contenido de arriba a abajo */
-    height: 340px; /* Reducción de la altura de la tarjeta */
-    transition: transform 0.3s ease;
-    overflow: hidden; /* Evita que el contenido se desborde */
-}
-
-.card:hover {
-    transform: translateY(-5px); /* Efecto de elevación al hacer hover */
-}
-
-.card h3 {
-    margin: 0 0 10px;
-    font-size: 1.4em;
-    color: black; /* Color del texto más oscuro */
-    flex: 1; /* Permite que el texto se expanda hacia el centro */
-    display: flex;
-    align-items: center; /* Centra el texto verticalmente */
-    justify-content: center; /* Centra el texto horizontalmente */
->>>>>>> 06e6f2246d64636362a9ba198f46ebbd2b5548d5
 }
 
 .button {
     display: inline-block;
-<<<<<<< HEAD
     padding: 12px 24px;
     background-color: #007bff;
     color: white;
@@ -164,23 +87,12 @@ h1 {
     font-size: 1.1em;
     transition: background-color 0.2s ease-in-out;
     margin-top: 15px; /* Espacio entre el título y el botón */
-=======
-    padding: 10px 18px;
-    background-color: #037dff;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-    margin-top: auto; /* Empuja el botón hacia la parte inferior */
->>>>>>> 06e6f2246d64636362a9ba198f46ebbd2b5548d5
 }
 
 .button:hover {
     background-color: #0056b3;
 }
 
-<<<<<<< HEAD
 /* Estilos responsivos */
 @media (max-width: 992px) {
     .container {
@@ -208,19 +120,5 @@ h1 {
         font-size: 1em;
         padding: 10px 20px;
         margin-top: 10px;
-=======
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas más pequeñas */
-    }
-
-    .card {
-        height: auto; /* La altura se ajusta automáticamente */
-        padding: 15px; /* Menos padding en pantallas pequeñas */
-    }
-
-    .button {
-        font-size: 0.9em; /* Ajusta el tamaño del botón */
->>>>>>> 06e6f2246d64636362a9ba198f46ebbd2b5548d5
     }
 }
