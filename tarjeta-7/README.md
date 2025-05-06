@@ -79,7 +79,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/676b3f6e5484e6b91bac81a06f30d649fbb74748/tarjeta-7/Audio%20-%20Tarjeta%20n%C3%BAmero%207..mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-7/Audio%20-%20Tarjeta%20n%C3%BAmero%207..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/3d904ffd13dd2435450720eeb709c1d2f69239ae/tarjeta-7/BUCLES%20(LOOPS).PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
