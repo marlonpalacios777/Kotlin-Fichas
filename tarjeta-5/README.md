@@ -112,7 +112,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/d38fc472fd630ee86e5962d41a955a5029d2b098/tarjeta-5/Audio%20-%20Tarjeta%20n%C3%BAmero%205..mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-5/Audio%20-%20Tarjeta%20n%C3%BAmero%205..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/361a7ec33b381769879dba15d86c2b67f5f527b7/tarjeta-5/ESTRUCTURAS%20DE%20DESICI%C3%93N%2C%20CONTROL%20Y%20MANEJO%20DE%20ERRORES.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
