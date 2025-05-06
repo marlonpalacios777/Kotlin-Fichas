@@ -86,7 +86,7 @@ fun main() {
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/1e32b1c343f48a844807c90fa5373a59865755bb/tarjeta-3/Audio%20-%20Tarjeta%20n%C3%BAmero%203..mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-3/Audio%20-%20Tarjeta%20n%C3%BAmero%203..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/0e4d4b84cd8ecf9524328137173265f38d5146d6/tarjeta-3/FUNCIONES%20DE%20STRINGS%20Y%20PRINTING.PNG)**
 
 ```kotlin
