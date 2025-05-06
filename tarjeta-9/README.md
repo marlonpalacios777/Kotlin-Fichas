@@ -78,7 +78,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/b45698369826dbdf5827575e7a97d8c673425a39/tarjeta-9/Audio%20-%20Tarjeta%20n%C3%BAmero%209..mp4)**  
+🔗 **[LINK DEL AUDIO](https://marlonpalacios777.github.io/Kotlin-Fichas/tarjeta-9/Audio%20-%20Tarjeta%20n%C3%BAmero%209..mp4)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/marlonpalacios777/Kotlin-Fichas/blob/93d11db4531678d7618ab8f5f08a4b9b65a7f1b5/tarjeta-9/Pruebas%2C%20test%20y%20depuraci%C3%B3n.PNG)**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
