@@ -346,7 +346,88 @@ fun main() {
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
-```kotlin
-// EJERCICIO CREADO EN KOTLIN
+// 1. Definición de la interfaz
+interface Dibujable {
+    fun dibujar()
+}
 
-```
+// 2. Definición de la clase abstracta Figura
+abstract class Figura(val nombre: String) {
+    // Encapsulación: la propiedad area es privada y solo se puede acceder a través del getter
+    private var _area: Double = 0.0
+    val area: Double get() = _area
+
+    // Método abstracto que las subclases deben implementar
+    abstract fun calcularArea(): Double
+
+    // Método protegido para que las subclases puedan establecer el área
+    protected fun setArea(valor: Double) {
+        _area = valor
+    }
+
+    // Método común a todas las figuras
+    fun mostrarNombre() {
+        println("Soy un(a) $nombre.")
+    }
+}
+
+// 3. Clases concretas que heredan de Figura e implementan Dibujable
+
+class Circulo(nombre: String, val radio: Double) : Figura(nombre), Dibujable {
+    init {
+        calcularArea() // Calculamos el área al crear el objeto
+    }
+
+    override fun calcularArea(): Double {
+        val areaCirculo = Math.PI * radio * radio
+        setArea(areaCirculo)
+        return areaCirculo
+    }
+
+    override fun dibujar() {
+        println("Dibujando un círculo de radio $radio.")
+    }
+}
+
+class Rectangulo(nombre: String, val base: Double, val altura: Double) : Figura(nombre), Dibujable {
+    init {
+        calcularArea()
+    }
+
+    override fun calcularArea(): Double {
+        val areaRectangulo = base * altura
+        setArea(areaRectangulo)
+        return areaRectangulo
+    }
+
+    override fun dibujar() {
+        println("Dibujando un rectángulo de base $base y altura $altura.")
+    }
+}
+
+// 4. Polimorfismo en acción
+fun dibujarFigura(dibujable: Dibujable) {
+    dibujable.dibujar()
+}
+
+fun main() {
+    val circulo = Circulo("Circulo Rojo", 5.0)
+    val rectangulo = Rectangulo("Rectangulo Azul", 4.0, 6.0)
+
+    circulo.mostrarNombre()
+    println("El área del ${circulo.nombre} es: ${circulo.area}")
+    dibujarFigura(circulo)
+    println()
+
+    rectangulo.mostrarNombre()
+    println("El área del ${rectangulo.nombre} es: ${rectangulo.area}")
+    dibujarFigura(rectangulo)
+    println()
+
+    // Polimorfismo: podemos tratar objetos de diferentes clases a través de la interfaz
+    val figurasDibujables = listOf<Dibujable>(circulo, rectangulo)
+    for (figura in figurasDibujables) {
+        dibujarFigura(figura)
+    }
+}
+
