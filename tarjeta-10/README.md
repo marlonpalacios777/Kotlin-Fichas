@@ -98,6 +98,228 @@ En resumen, la POO es un pilar fundamental para desarrollar software organizado,
    
 2. **Genere un ejemplo internamente en el recuadro.**
    - Utilice un editor de código para lograrlo.
+// Ejemplos de Código Kotlin para POO
+
+// Clases y Objetos:
+// Definiendo una clase
+class Persona {
+    var nombre: String = "Sin nombre"
+    var edad: Int = 0
+
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
+    }
+}
+
+// Creando un objeto de la clase Persona
+fun main() {
+    val persona1 = Persona() // Instanciando la clase
+    persona1.nombre = "Juan"
+    persona1.edad = 25
+    persona1.mostrarInformacion() // Mostrará: Nombre: Juan, Edad: 25 años
+}
+
+// Constructor Primario:
+class Persona(val nombre: String, val edad: Int) {
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
+    }
+}
+
+fun main() {
+    val persona1 = Persona("Ana", 25)
+    persona1.mostrarInformacion() // Muestra: Nombre: Ana, Edad: 25 años
+}
+
+// Constructor Secundario:
+class Persona {
+    var nombre: String
+    var edad: Int
+
+    // Constructor Secundario
+    constructor(nombre: String, edad: Int) {
+        this.nombre = nombre
+        this.edad = if (edad > 0) edad else 1 // Evitamos edades negativas
+        println("Objeto Persona creado con nombre $nombre y edad $edad")
+    }
+
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
+    }
+}
+
+fun main() {
+    val persona1 = Persona("Juan", -5) // Edad negativa, se corrige a 1
+    persona1.mostrarInformacion() // Muestra: Nombre: Juan, Edad: 1 años
+}
+
+// Encapsulación:
+class Empleado(private val nombre: String, private var salario: Double) {
+
+    // Getter para obtener el nombre
+    fun obtenerNombre(): String {
+        return nombre
+    }
+
+    // Getter para obtener el salario
+    fun obtenerSalario(): Double {
+        return salario
+    }
+
+    // Setter para modificar el salario con validación
+    fun actualizarSalario(nuevoSalario: Double) {
+        if (nuevoSalario > 0) {
+            salario = nuevoSalario
+        } else {
+            println("❌ Error: El salario no puede ser negativo")
+        }
+    }
+
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Salario: $salario")
+    }
+}
+
+fun main() {
+    val empleado1 = Empleado("Juan", 2000.0)
+
+    empleado1.mostrarInformacion()  // Nombre: Juan, Salario: 2000.0
+
+    empleado1.actualizarSalario(2500.0)  // Se actualiza correctamente
+    empleado1.mostrarInformacion()  // Nombre: Juan, Salario: 2500.0
+
+    empleado1.actualizarSalario(-500.0)  // ❌ No permite valores negativos
+    empleado1.mostrarInformacion()  // El salario sigue en 2500.0
+}
+
+// Herencia:
+// Superclase
+open class Persona(val nombre: String, val edad: Int) {
+    fun presentarse() {
+        println("Hola, me llamo $nombre y tengo $edad años.")
+    }
+}
+
+// Subclase que hereda de Persona
+class Estudiante(nombre: String, edad: Int, val carrera: String) : Persona(nombre, edad) {
+    fun estudiar() {
+        println("$nombre está estudiando $carrera.")
+    }
+}
+
+fun main() {
+    val estudiante1 = Estudiante("Laura", 20, "Ingeniería")
+    estudiante1.presentarse()  // Método heredado de Persona
+    estudiante1.estudiar()     // Método de Estudiante
+}
+
+open class Animal {
+    open fun sonido() {
+        println("Este animal hace un sonido")
+    }
+}
+
+class Perro : Animal() {
+    override fun sonido() {
+        println("El perro dice: ¡Guau!")
+    }
+}
+
+fun main() {
+    val miPerro = Perro()
+    miPerro.sonido() // Imprime: El perro dice: ¡Guau!
+}
+
+// Clase Abstracta:
+// Clase abstracta
+abstract class Animal(val nombre: String) {
+    // Método abstracto (sin cuerpo)
+    abstract fun hacerSonido()
+
+    // Método normal (puede tener cuerpo)
+    fun presentarse() {
+        println("Hola, soy $nombre")
+    }
+}
+
+// Subclase concreta
+class Perro(nombre: String) : Animal(nombre) {
+    override fun hacerSonido() {
+        println("🐶 $nombre dice: ¡Guau guau!")
+    }
+}
+
+class Gato(nombre: String) : Animal(nombre) {
+    override fun hacerSonido() {
+        println("🐱 $nombre dice: ¡Miau!")
+    }
+}
+
+fun main() {
+    val perro = Perro("Toby")
+    val gato = Gato("Michi")
+
+    perro.presentarse()
+    perro.hacerSonido()
+
+    gato.presentarse()
+    gato.hacerSonido()
+}
+
+// Polimorfismo:
+abstract class Empleado(val nombre: String) {
+    abstract fun trabajar()
+}
+
+class Programador(nombre: String): Empleado(nombre) {
+    override fun trabajar() {
+        println("👨‍💻 $nombre está programando en Kotlin.")
+    }
+}
+
+class Diseñador(nombre: String): Empleado(nombre) {
+    override fun trabajar() {
+        println("🎨 $nombre está diseñando interfaces.")
+    }
+}
+
+fun main() {
+    // Creamos una lista de empleados (todos como tipo Empleado)
+    val empleados: List<Empleado> = listOf(
+        Programador("Ana"),
+        Diseñador("Carlos"),
+        Programador("Luis")
+    )
+
+    // Aquí ocurre el polimorfismo:
+    for (empleado in empleados) {
+        empleado.trabajar() // Se ejecuta la versión correcta de cada subclase
+    }
+}
+
+// Interfaz:
+interface Trabajador {
+    fun trabajar()
+}
+
+interface Descansar {
+    fun descansar()
+}
+
+class Diseñador(val nombre: String) : Trabajador, Descansar {
+    override fun trabajar() {
+        println("🎨 $nombre está diseñando.")
+    }
+
+    override fun descansar() {
+        println("😴 $nombre está tomando una siesta creativa.")
+    }
+}
+fun main() {
+    val diseñador1 = Diseñador("Luisa")
+    diseñador1.trabajar()
+    diseñador1.descansar()
+}
 
 
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
