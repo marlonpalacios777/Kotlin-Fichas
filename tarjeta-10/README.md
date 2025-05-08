@@ -346,6 +346,7 @@ fun main() {
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+
 // 1. Definición de la interfaz
 interface Dibujable {
     fun dibujar()
@@ -380,7 +381,7 @@ class Circulo(nombre: String, val radio: Double) : Figura(nombre), Dibujable {
 
     override fun calcularArea(): Double {
         val areaCirculo = Math.PI * radio * radio
-        setArea(areaCirculo)
+        setArea(areaCirculo) // Usamos el método protegido para establecer el área
         return areaCirculo
     }
 
@@ -391,12 +392,12 @@ class Circulo(nombre: String, val radio: Double) : Figura(nombre), Dibujable {
 
 class Rectangulo(nombre: String, val base: Double, val altura: Double) : Figura(nombre), Dibujable {
     init {
-        calcularArea()
+        calcularArea() // Calculamos el área al crear el objeto
     }
 
     override fun calcularArea(): Double {
         val areaRectangulo = base * altura
-        setArea(areaRectangulo)
+        setArea(areaRectangulo) // Usamos el método protegido para establecer el área
         return areaRectangulo
     }
 
@@ -411,8 +412,8 @@ fun dibujarFigura(dibujable: Dibujable) {
 }
 
 fun main() {
-    val circulo = Circulo("Circulo Rojo", 5.0)
-    val rectangulo = Rectangulo("Rectangulo Azul", 4.0, 6.0)
+    val circulo = Circulo("Círculo Rojo", 5.0)
+    val rectangulo = Rectangulo("Rectángulo Azul", 4.0, 6.0)
 
     circulo.mostrarNombre()
     println("El área del ${circulo.nombre} es: ${circulo.area}")
@@ -427,7 +428,9 @@ fun main() {
     // Polimorfismo: podemos tratar objetos de diferentes clases a través de la interfaz
     val figurasDibujables = listOf<Dibujable>(circulo, rectangulo)
     for (figura in figurasDibujables) {
-        dibujarFigura(figura)
+        dibujarFigura(figura) // Llama al método dibujar específico de cada clase
     }
 }
+
+
 
