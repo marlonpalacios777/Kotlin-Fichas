@@ -98,9 +98,11 @@ En resumen, la POO es un pilar fundamental para desarrollar software organizado,
    
 2. **Genere un ejemplo internamente en el recuadro.**
    - Utilice un editor de código para lograrlo.
-// Ejemplos de Código Kotlin para POO
+## Ejemplos de Código Kotlin para POO
 
-// Clases y Objetos:
+### Clases y Objetos
+
+```kotlin
 // Definiendo una clase
 class Persona {
     var nombre: String = "Sin nombre"
@@ -118,8 +120,11 @@ fun main() {
     persona1.edad = 25
     persona1.mostrarInformacion() // Mostrará: Nombre: Juan, Edad: 25 años
 }
+```
 
-// Constructor Primario:
+### Constructor Primario
+
+```kotlin
 class Persona(val nombre: String, val edad: Int) {
     fun mostrarInformacion() {
         println("Nombre: $nombre, Edad: $edad años")
@@ -130,8 +135,11 @@ fun main() {
     val persona1 = Persona("Ana", 25)
     persona1.mostrarInformacion() // Muestra: Nombre: Ana, Edad: 25 años
 }
+```
 
-// Constructor Secundario:
+### Constructor Secundario
+
+```kotlin
 class Persona {
     var nombre: String
     var edad: Int
@@ -152,21 +160,21 @@ fun main() {
     val persona1 = Persona("Juan", -5) // Edad negativa, se corrige a 1
     persona1.mostrarInformacion() // Muestra: Nombre: Juan, Edad: 1 años
 }
+```
 
-// Encapsulación:
+### Encapsulación
+
+```kotlin
 class Empleado(private val nombre: String, private var salario: Double) {
 
-    // Getter para obtener el nombre
     fun obtenerNombre(): String {
         return nombre
     }
 
-    // Getter para obtener el salario
     fun obtenerSalario(): Double {
         return salario
     }
 
-    // Setter para modificar el salario con validación
     fun actualizarSalario(nuevoSalario: Double) {
         if (nuevoSalario > 0) {
             salario = nuevoSalario
@@ -182,17 +190,19 @@ class Empleado(private val nombre: String, private var salario: Double) {
 
 fun main() {
     val empleado1 = Empleado("Juan", 2000.0)
+    empleado1.mostrarInformacion()
 
-    empleado1.mostrarInformacion()  // Nombre: Juan, Salario: 2000.0
+    empleado1.actualizarSalario(2500.0)
+    empleado1.mostrarInformacion()
 
-    empleado1.actualizarSalario(2500.0)  // Se actualiza correctamente
-    empleado1.mostrarInformacion()  // Nombre: Juan, Salario: 2500.0
-
-    empleado1.actualizarSalario(-500.0)  // ❌ No permite valores negativos
-    empleado1.mostrarInformacion()  // El salario sigue en 2500.0
+    empleado1.actualizarSalario(-500.0)
+    empleado1.mostrarInformacion()
 }
+```
 
-// Herencia:
+### Herencia
+
+```kotlin
 // Superclase
 open class Persona(val nombre: String, val edad: Int) {
     fun presentarse() {
@@ -209,10 +219,12 @@ class Estudiante(nombre: String, edad: Int, val carrera: String) : Persona(nombr
 
 fun main() {
     val estudiante1 = Estudiante("Laura", 20, "Ingeniería")
-    estudiante1.presentarse()  // Método heredado de Persona
-    estudiante1.estudiar()     // Método de Estudiante
+    estudiante1.presentarse()
+    estudiante1.estudiar()
 }
+```
 
+```kotlin
 open class Animal {
     open fun sonido() {
         println("Este animal hace un sonido")
@@ -227,22 +239,21 @@ class Perro : Animal() {
 
 fun main() {
     val miPerro = Perro()
-    miPerro.sonido() // Imprime: El perro dice: ¡Guau!
+    miPerro.sonido()
 }
+```
 
-// Clase Abstracta:
-// Clase abstracta
+### Clase Abstracta
+
+```kotlin
 abstract class Animal(val nombre: String) {
-    // Método abstracto (sin cuerpo)
     abstract fun hacerSonido()
 
-    // Método normal (puede tener cuerpo)
     fun presentarse() {
         println("Hola, soy $nombre")
     }
 }
 
-// Subclase concreta
 class Perro(nombre: String) : Animal(nombre) {
     override fun hacerSonido() {
         println("🐶 $nombre dice: ¡Guau guau!")
@@ -265,8 +276,11 @@ fun main() {
     gato.presentarse()
     gato.hacerSonido()
 }
+```
 
-// Polimorfismo:
+### Polimorfismo
+
+```kotlin
 abstract class Empleado(val nombre: String) {
     abstract fun trabajar()
 }
@@ -284,20 +298,21 @@ class Diseñador(nombre: String): Empleado(nombre) {
 }
 
 fun main() {
-    // Creamos una lista de empleados (todos como tipo Empleado)
     val empleados: List<Empleado> = listOf(
         Programador("Ana"),
         Diseñador("Carlos"),
         Programador("Luis")
     )
 
-    // Aquí ocurre el polimorfismo:
     for (empleado in empleados) {
-        empleado.trabajar() // Se ejecuta la versión correcta de cada subclase
+        empleado.trabajar()
     }
 }
+```
 
-// Interfaz:
+### Interfaz
+
+```kotlin
 interface Trabajador {
     fun trabajar()
 }
@@ -315,11 +330,13 @@ class Diseñador(val nombre: String) : Trabajador, Descansar {
         println("😴 $nombre está tomando una siesta creativa.")
     }
 }
+
 fun main() {
     val diseñador1 = Diseñador("Luisa")
     diseñador1.trabajar()
     diseñador1.descansar()
 }
+```
 
 
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
