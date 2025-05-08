@@ -35,6 +35,12 @@ La POO se utiliza porque permite hacer código más organizado, reutilizable, ma
    - Utilice un editor de código para lograrlo.
 
 ### Clases y Objetos:
+* **"Una clase es una plantilla o estructura que define un tipo de datos personalizado. En
+Kotlin, una clase agrupa:
+Propiedades: características o atributos del objeto.
+Funciones (también llamadas métodos): comportamientos o acciones que
+puede realizar el objeto.
+Las clases son la base de la programación orientada a objetos (POO)..
      
 ```kotlin
 // Definiendo una clase
