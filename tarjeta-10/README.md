@@ -2,7 +2,7 @@
 
 ---
 
-### 1. Descripción: Fundamentos y Propósito
+### 1. Por qué y para qué se utilizan
 
 La Programación Orientada a Objetos (POO) es un **paradigma de programación** fundamental que se centra en la creación de **objetos**. Estos objetos encapsulan **atributos** (datos) y **comportamientos** (funciones o métodos), modelando entidades del mundo real dentro del software.
 
