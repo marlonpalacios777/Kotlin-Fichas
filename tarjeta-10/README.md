@@ -34,34 +34,58 @@ La POO se utiliza porque permite hacer código más organizado, reutilizable, ma
 2. **Genere un ejemplo internamente en el recuadro.**
    - Utilice un editor de código para lograrlo.
 
-### Ejemplo sin POO (código desordenado y difícil de mantener):
+### Clases y Objetos:
      
 ```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN
-fun main() {
-    val empleadoNombre = "Marlon"
-    val empleadoEdad = 21
-    val empleadoSalario = 2500.0
+// Definiendo una clase
+class Persona {
+    var nombre: String = "Sin nombre"
+    var edad: Int = 0
 
-    println("$empleadoNombre tiene $empleadoEdad años y gana $$empleadoSalario al mes.")
-}
-```
-### Ejemplo Con POO (Código reutilizable y organizado):
-
-```kotlin
-// EJEMPLO EN CÓDIGO KOTLIN - Con POO (Código reutilizable y organizado)
-fun main() {
-    val empleado1 = Empleado("Marlon", 21, 2500.0)
-    empleado1.mostrarInfo()
-}
-
-class Empleado(val nombre: String, val edad: Int, val salario: Double) {
-    fun mostrarInfo() {
-        println("$nombre tiene $edad años y gana $$salario al mes.")
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
     }
 }
-```
 
+```
+```kotlin
+// Creando un objeto de la clase Persona
+fun main() {
+    val persona1 = Persona() // Instanciando la clase
+    persona1.nombre = "Juan"
+    persona1.edad = 25
+    persona1.mostrarInformacion() // Mostrará: Nombre: Juan, Edad: 25 años
+}
+
+```
+### Constructor primario:
+```kotlin
+class Persona(val nombre: String, val edad: Int) {
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
+    }
+}
+
+fun main() {
+    val persona1 = Persona("Ana", 25)
+    persona1.mostrarInformacion() // Muestra: Nombre: Ana, Edad: 25 años
+}
+
+```
+### Constructor Se:
+```kotlin
+class Persona(val nombre: String, val edad: Int) {
+    fun mostrarInformacion() {
+        println("Nombre: $nombre, Edad: $edad años")
+    }
+}
+
+fun main() {
+    val persona1 = Persona("Ana", 25)
+    persona1.mostrarInformacion() // Muestra: Nombre: Ana, Edad: 25 años
+}
+
+```
 ### CREAR ALGORITMO PROPIO Y EXPLIQUELO PASO A PASO 
 - Genere el link del audio y el link de GitHub.  
 
