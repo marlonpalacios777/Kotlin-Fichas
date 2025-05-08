@@ -346,6 +346,7 @@ fun main() {
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
 
 **ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
+```kotlin
 // 1. Definición de la interfaz
 interface Dibujable {
     fun dibujar()
@@ -372,7 +373,6 @@ abstract class Figura(val nombre: String) {
 }
 
 // 3. Clases concretas que heredan de Figura e implementan Dibujable
-
 class Circulo(nombre: String, val radio: Double) : Figura(nombre), Dibujable {
     // Constructor secundario (el primario está en la definición de la clase)
     init {
@@ -433,5 +433,6 @@ fun main() {
     }
 }
 
+```
 
 
