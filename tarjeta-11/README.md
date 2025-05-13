@@ -39,7 +39,7 @@ El manejo de archivos se utiliza principalmente para:
 * Organizar la información en directorios para una mejor gestión.
 * Registrar eventos importantes para el seguimiento y diagnóstico de problemas.
 
-## Formato JSON (Ejemplo práctico en la exposición):
+**Formato JSON (Ejemplo práctico en la exposición):**
 
 ```json
 {
@@ -80,7 +80,7 @@ El manejo de archivos se utiliza principalmente para:
   ]
 }
 
-## EJEMPLO EN LA EXPOSICIÓN - KOTLIN:
+**EJEMPLO EN LA EXPOSICIÓN - KOTLIN:**
 ```kotlin
 import kotlinx.serialization.*
 import kotlinx.serialization.json.*
