@@ -81,7 +81,6 @@ El manejo de archivos se utiliza principalmente para:
 }
 
 ## EJEMPLO EN LA EXPOSICIÓN - KOTLIN:
-
 ```kotlin
 import kotlinx.serialization.*
 import kotlinx.serialization.json.*
@@ -155,6 +154,7 @@ fun main() {
         println("${it.name} cuesta \$${it.price}")
     }
 }
+
 ```
 ---
    
