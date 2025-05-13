@@ -80,10 +80,85 @@ El manejo de archivos se utiliza principalmente para:
   ]
 }
 
+## EJEMPLO EN LA EXPOSICIÓN - KOTLIN:
 
+```kotlin
+import kotlinx.serialization.*
+import kotlinx.serialization.json.*
+
+@Serializable
+data class Producto(
+    @SerialName("uuid") val uid: String,
+    val name: String,
+    val price: Double
+)
+
+fun main() {
+    val jsonString = """
+        [
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440000",
+            "name": "producto aleatorio 1",
+            "price": "10.99"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440001",
+            "name": "producto aleatorio 2",
+            "price": "20.50"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440002",
+            "name": "producto aleatorio 3",
+            "price": "15.75"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440003",
+            "name": "producto aleatorio 4",
+            "price": "8.99"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440004",
+            "name": "producto aleatorio 5",
+            "price": "12.30"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440005",
+            "name": "producto aleatorio 6",
+            "price": "5.99"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440006",
+            "name": "producto aleatorio 7",
+            "price": "18.20"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440007",
+            "name": "producto aleatorio 8",
+            "price": "22.45"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440008",
+            "name": "producto aleatorio 9",
+            "price": "30.99"
+          },
+          {
+            "uuid": "550e8400-e29b-41d4-a716-446655440009",
+            "name": "producto aleatorio 10",
+            "price": "40.10"
+          }
+        ]
+    """.trimIndent()
+
+    val productos: List<Producto> = Json.decodeFromString(jsonString)
+
+    productos.forEach {
+        println("${it.name} cuesta \$${it.price}")
+    }
+}
+```
 ---
    
-2. **Genere un ejemplo internamente en el recuadro.**
+2. **Genere un ejemplo creado internamente en el recuadro.**
    - Utilice un editor de código para lograrlo.
      
 ```kotlin
