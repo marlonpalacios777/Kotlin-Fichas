@@ -1,13 +1,21 @@
 #### ESTRUCTURA NÚMERO 11
-# Manejo de archivos
+# Manejo de Archivos
 
-## 1. Por qué y para qué se utilizan los Manejos de archivos
+---
 
-## ¿Para qué se utilizan los Manejos de archivos?
-
-
+## 1. Descripción: Por qué y para qué se utiliza el Manejo de Archivos
 
 
+### ¿Por qué se utiliza?
+
+
+
+
+### ¿Para qué se utiliza?
+
+
+---
+   
 2. **Genere un ejemplo internamente en el recuadro.**
    - Utilice un editor de código para lograrlo.
      
@@ -22,6 +30,7 @@
 🔗 **[LINK DEL AUDIO]()**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**.
 
+**ALGORITMO CREADO Y EXPLICACION DE COMO FUNCIONA LA ESTRUCTURA**
 ```kotlin
 // EJERCICIO CREADO EN KOTLIN
 
