@@ -3,7 +3,7 @@
 
 ## 1. Por qué y para qué se utilizan los Manejos de archivos
 
-### ¿Para qué se utilizan los Manejos de archivos?
+## ¿Para qué se utilizan los Manejos de archivos?
 
 
 
