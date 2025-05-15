@@ -53,7 +53,7 @@ fun main() {
     println("Suma: $suma") // Salida: 15
 }
 ```
-**EJEMPLO DE FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBA**
+**EJEMPLO DE FUNCION DE ORDEN SUPERIOR CON EXPRESION LAMBDA**
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 fun main() {
