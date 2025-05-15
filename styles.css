@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #999898;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.titulo {
+    font-size: 3.0em;
+    font-weight: bold;
+    color: #333;
+    animation: mover 0.80s infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(8px);
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cuadros un poco más anchos */
+    gap: 25px;
+    padding: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.card {
+    background: linear-gradient(145deg, #e0e0e0, #b3b3b3); /* Color un poco menos vivo */
+    border: 2px solid #777; /* Borde más lindo y sutil */
+    border-radius: 15px; /* Bordes un poco más redondeados */
+    padding: 25px; /* Un poco más de espacio interior */
+    text-align: center;
+    box-shadow: 6px 6px 12px #c4c4c4, -6px -6px 12px #fcfcfc; /* Sutil efecto de relieve */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px; /* Altura mínima un poco mayor */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Menos elevación al hacer hover */
+    box-shadow: 8px 8px 16px #c4c4c4, -8px -8px 16px #fcfcfc;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 1.7em; /* Título un poco más grande */
+    color: #444;
+    margin-bottom: 20px; /* Más espacio entre el título y el botón */
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 15px; /* Espacio entre el título y el botón */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos responsivos */
+@media (max-width: 992px) {
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        padding: 15px;
+    }
+
+    .card {
+        padding: 15px;
+        min-height: 160px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        font-size: 1em;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+}
